@@ -1,0 +1,3390 @@
+dialog {
+  background-color: #fff;
+  color: #000;
+}
+
+html {
+  color: #38444d
+}
+
+body {
+  background-color: #1da1f2;
+}
+
+body:before {
+  background-image: radial-gradient(circle, #1da1f2, #1c2938);
+}
+
+::-moz-selection {
+  background: #e1e8ed;
+  color: #14171a;
+}
+
+::selection {
+  background: #e1e8ed;
+  color: #14171a;
+}
+
+a {
+  color: #1da1f2;
+}
+
+a:active, a:focus, a:hover {
+  color: #1da1f2;
+}
+
+.txt-mute {
+  color: #8899a6
+}
+
+.txt-mute a:not(:hover):not(:focus) {
+  color: #8899a6
+}
+
+.txt-mute-text-only {
+  color: #8899a6
+}
+
+.color-twitter-emphasis-gray {
+  color: #657786
+}
+
+.link-hover-override:hover .link-hover-target {
+  color: #1da1f2
+}
+
+.scroll-styled-h, .scroll-styled-v {
+  -ms-scrollbar-face-color: #e1e8ed;
+  scrollbar-face-color: #e1e8ed;
+  -ms-scrollbar-highlight-color: #e1e8ed;
+  scrollbar-highlight-color: #e1e8ed;
+  -ms-scrollbar-shadow-color: #e1e8ed;
+  scrollbar-shadow-color: #e1e8ed;
+  -ms-scrollbar-darkshadow-color: #e1e8ed;
+  scrollbar-darkshadow-color: #e1e8ed;
+  -ms-scrollbar-track-color: #f5f8fa;
+  scrollbar-track-color: #f5f8fa;
+  -ms-scrollbar-3dlight-color: #e1e8ed;
+  scrollbar-3dlight-color: #e1e8ed;
+  -ms-scrollbar-arrow-color: #38444d;
+  scrollbar-arrow-color: #38444d;
+  scrollbar-color: #e1e8ed #fff
+}
+
+.scroll-styled-h::-webkit-scrollbar-track, .scroll-styled-v::-webkit-scrollbar-track {
+  border-left: 1px solid #e1e8ed
+}
+
+.scroll-styled-h::-webkit-scrollbar-thumb, .scroll-styled-v::-webkit-scrollbar-thumb {
+  background-color: #e1e8ed
+}
+
+.scroll-styled-h::-webkit-scrollbar-thumb:hover, .scroll-styled-v::-webkit-scrollbar-thumb:hover {
+  background-color: #8899a6
+}
+
+.scroll-alt {
+  -ms-scrollbar-face-color: #e1e8ed;
+  scrollbar-face-color: #e1e8ed;
+  -ms-scrollbar-highlight-color: #e1e8ed;
+  scrollbar-highlight-color: #e1e8ed;
+  -ms-scrollbar-shadow-color: #e1e8ed;
+  scrollbar-shadow-color: #e1e8ed;
+  -ms-scrollbar-darkshadow-color: #e1e8ed;
+  scrollbar-darkshadow-color: #e1e8ed;
+  -ms-scrollbar-track-color: #f5f8fa;
+  scrollbar-track-color: #f5f8fa;
+  -ms-scrollbar-3dlight-color: #e1e8ed;
+  scrollbar-3dlight-color: #e1e8ed;
+  -ms-scrollbar-arrow-color: #38444d;
+  scrollbar-arrow-color: #38444d
+}
+
+.scroll-alt::-webkit-scrollbar-track {
+  border-color: #e1e8ed
+}
+
+.scroll-alt::-webkit-scrollbar-thumb {
+  background-color: #e1e8ed
+}
+
+.scroll-alt::-webkit-scrollbar-thumb:hover {
+  background-color: #8899a6
+}
+
+.scroll-conversation {
+  background: #f5f8fa
+}
+
+.scroll-conversation::-webkit-scrollbar-track {
+  border-left-color: #e1e8ed
+}
+
+.scroll-conversation::-webkit-scrollbar-thumb {
+  background-color: #e1e8ed
+}
+
+.scroll-conversation::-webkit-scrollbar-thumb:hover {
+  background-color: #8899a6
+}
+
+.antiscroll-scrollbar {
+  background: hsla(0, 0%, 100%, .2);
+}
+
+.compose .antiscroll-scrollbar {
+  background: #71c9f8
+}
+
+.is-loading {
+  background-color: #fff
+}
+
+.with-drop-shadow:after {
+  box-shadow: inset 0 2px 4px #ccd6dd;
+  border-top: 1px solid rgba(56, 68, 77, .25)
+}
+
+.border-divider {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.border-separated li {
+  border-bottom: 1px solid #ccd6dd
+}
+
+.dark-border {
+  border: 1px solid #e1e8ed
+}
+
+.dark-border-top {
+  border-top: 1px solid #e1e8ed
+}
+
+.color-twitter-darker-gray {
+  color: #657786
+}
+
+.color-twitter-white {
+  color: #fff!important
+}
+
+.color-twitter-gray {
+  color: #aab8c2
+}
+
+.color-twitter-blue {
+  color: #1da1f2
+}
+
+.color-twitter-red {
+  color: #e0245e
+}
+
+.color-twitter-deep-red {
+  color: #a01744
+}
+
+.color-twitter-green {
+  color: #17bf63
+}
+
+.color-twitter-deep-black {
+  color: #14171a
+}
+
+.color-twitter-dark-black {
+  color: #38444d
+}
+
+.color-twitter-dark-gray {
+  color: #8899a6
+}
+
+.color-twitter-black {
+  color: #000
+}
+
+.color-twitter-yellow {
+  color: #ffad1f
+}
+
+.color-transparent {
+  color: transparent!important
+}
+
+.bg-color-twitter-white {
+  background-color: #fff!important
+}
+
+.bg-color-twitter-blue {
+  background-color: #1da1f2
+}
+
+.bg-color-twitter-deep-blue {
+  background-color: #005fd1
+}
+
+.bg-color-twitter-medium-blue {
+  background-color: #1da1f2
+}
+
+.bg-color-twitter-deep-black {
+  background-color: #38444d
+}
+
+.bg-color-twitter-red {
+  background-color: #e0245e
+}
+
+.bg-color-twitter-light-gray {
+  background-color: #ccd6dd
+}
+
+.bg-color-twitter-lightest-gray {
+  background-color: #f5f8fa
+}
+
+.bg-color-twitter-midnight-dark-gray {
+  background-color: #15202b
+}
+
+.bg-color-twitter-midnight-darkest-gray {
+  background-color: #10171e
+}
+
+.bg-color-twitter-yellow {
+  background-color: #ffad1f
+}
+
+.bg-color-transparent {
+  background-color: transparent!important
+}
+
+.hover-bg-color-twitter-white:focus, .hover-bg-color-twitter-white:hover {
+  background-color: #fff
+}
+
+.hover-bg-color-twitter-lightest-gray:focus, .hover-bg-color-twitter-lightest-gray:hover {
+  background-color: #f5f8fa
+}
+
+.hover-bg-color-twitter-faint-blue:focus, .hover-bg-color-twitter-faint-blue:hover {
+  background-color: #eaf5fd
+}
+
+.border-color-twitter-blue {
+  border-color: #1da1f2
+}
+
+.border-color-twitter-white {
+  border-color: #fff
+}
+
+.is-inverted-light {
+  color: #e1e8ed;
+}
+
+.is-inverted-light a, .is-inverted-light a:active, .is-inverted-light a:focus, .is-inverted-light a:hover {
+  color: #8899a6
+}
+
+.is-inverted-light .txt-mute {
+  color: #8899a6
+}
+
+.is-inverted-light .txt-mute a:not(:hover):not(:focus) {
+  color: #8899a6
+}
+
+.is-inverted-light .account-link {
+  color: #e1e8ed
+}
+
+.is-inverted-light .account-bio {
+  color: #8899a6
+}
+
+.icon-favorite-color {
+  color: #e0245e
+}
+
+.icon-follow-color {
+  color: #1da1f2
+}
+
+.icon-image-color, .icon-list-color, .icon-mention-color {
+  color: #657786
+}
+
+.icon-unread-color {
+  color: #1da1f2
+}
+
+.icon-remove-color {
+  color: #e0245e
+}
+
+.icon-retweet-color, .icon-submit-color {
+  color: #17bf63
+}
+
+.icon-twitter-blue-color {
+  color: #1da1f2
+}
+
+.ButtonGroup>.Button.is-selected, .ButtonGroup>.Button.is-selected:visited, .ButtonGroup>button.is-selected, .ButtonGroup>button.is-selected:visited, .ButtonGroup>input.is-selected:visited[type=button], .ButtonGroup>input.is-selected[type=button] {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  color: #fff
+}
+
+.ButtonGroup>.Button.is-selected.is-focus, .ButtonGroup>.Button.is-selected:focus, .ButtonGroup>button.is-selected.is-focus, .ButtonGroup>button.is-selected:focus, .ButtonGroup>input.is-selected.is-focus[type=button], .ButtonGroup>input.is-selected:focus[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8;
+  background: #1da1f2;
+  border-color: #1da1f2;
+  color: #fff
+}
+
+.ButtonGroup>.Button.is-selected.is-hover, .ButtonGroup>.Button.is-selected:hover, .ButtonGroup>button.is-selected.is-hover, .ButtonGroup>button.is-selected:hover, .ButtonGroup>input.is-selected.is-hover[type=button], .ButtonGroup>input.is-selected:hover[type=button] {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  color: #fff
+}
+
+.ButtonGroup>.Button.is-selected.is-active, .ButtonGroup>.Button.is-selected:active, .ButtonGroup>button.is-selected.is-active, .ButtonGroup>button.is-selected:active, .ButtonGroup>input.is-selected.is-active[type=button], .ButtonGroup>input.is-selected:active[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1da1f2;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  color: #fff
+}
+
+.ButtonGroup>.Button.is-selected.is-disabled, .ButtonGroup>.Button.is-selected[disabled], .ButtonGroup>button.is-selected.is-disabled, .ButtonGroup>button.is-selected.is-disabled:focus, .ButtonGroup>button.is-selected[disabled], .ButtonGroup>input.is-selected.is-disabled[type=button], .ButtonGroup>input.is-selected.is-disabled[type=button]:focus, .ButtonGroup>input.is-selected[disabled][type=button], .follow-btn.is-disabled .ButtonGroup>button.is-selected, fieldset[disabled] .ButtonGroup>.Button.is-selected, fieldset[disabled] .ButtonGroup>button.is-selected, fieldset[disabled] .ButtonGroup>input.is-selected[type=button] {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  box-shadow: none
+}
+
+.ButtonGroup--tertiary>.Button.is-selected, .ButtonGroup--tertiary>.Button.is-selected:visited, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected:visited, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected:visited, .ButtonGroup--tertiary>.ButtonGroup>input.is-selected:visited[type=button], .ButtonGroup--tertiary>.ButtonGroup>input.is-selected[type=button], .ButtonGroup--tertiary>button.is-selected, .ButtonGroup--tertiary>button.is-selected:visited, .ButtonGroup--tertiary>input.is-selected:visited[type=button], .ButtonGroup--tertiary>input.is-selected[type=button] {
+  background-color: #657786;
+  border: 1px solid #657786;
+  color: #fff
+}
+
+.ButtonGroup--tertiary>.Button.is-selected.is-focus, .ButtonGroup--tertiary>.Button.is-selected:focus, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected.is-focus, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected:focus, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected.is-focus, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected:focus, .ButtonGroup--tertiary>.ButtonGroup>input.is-selected.is-focus[type=button], .ButtonGroup--tertiary>.ButtonGroup>input.is-selected:focus[type=button], .ButtonGroup--tertiary>button.is-selected.is-focus, .ButtonGroup--tertiary>button.is-selected:focus, .ButtonGroup--tertiary>input.is-selected.is-focus[type=button], .ButtonGroup--tertiary>input.is-selected:focus[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ccd6dd;
+  background: #657786;
+  border-color: #657786;
+  color: #fff
+}
+
+.ButtonGroup--tertiary>.Button.is-selected.is-hover, .ButtonGroup--tertiary>.Button.is-selected:hover, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected.is-hover, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected:hover, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected.is-hover, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected:hover, .ButtonGroup--tertiary>.ButtonGroup>input.is-selected.is-hover[type=button], .ButtonGroup--tertiary>.ButtonGroup>input.is-selected:hover[type=button], .ButtonGroup--tertiary>button.is-selected.is-hover, .ButtonGroup--tertiary>button.is-selected:hover, .ButtonGroup--tertiary>input.is-selected.is-hover[type=button], .ButtonGroup--tertiary>input.is-selected:hover[type=button] {
+  background-color: #657786;
+  border-color: #657786;
+  color: #fff
+}
+
+.ButtonGroup--tertiary>.Button.is-selected.is-active, .ButtonGroup--tertiary>.Button.is-selected:active, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected.is-active, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected:active, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected.is-active, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected:active, .ButtonGroup--tertiary>.ButtonGroup>input.is-selected.is-active[type=button], .ButtonGroup--tertiary>.ButtonGroup>input.is-selected:active[type=button], .ButtonGroup--tertiary>button.is-selected.is-active, .ButtonGroup--tertiary>button.is-selected:active, .ButtonGroup--tertiary>input.is-selected.is-active[type=button], .ButtonGroup--tertiary>input.is-selected:active[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #aab8c2;
+  background-color: #657786;
+  border-color: #657786;
+  color: #fff
+}
+
+.ButtonGroup--tertiary>.Button.is-selected.is-disabled, .ButtonGroup--tertiary>.Button.is-selected[disabled], .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected.is-disabled, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected[disabled], .ButtonGroup--tertiary>.ButtonGroup>button.is-selected.is-disabled, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected.is-disabled:focus, .ButtonGroup--tertiary>.ButtonGroup>button.is-selected[disabled], .ButtonGroup--tertiary>.ButtonGroup>input.is-selected.is-disabled[type=button], .ButtonGroup--tertiary>.ButtonGroup>input.is-selected.is-disabled[type=button]:focus, .ButtonGroup--tertiary>.ButtonGroup>input.is-selected[disabled][type=button], .ButtonGroup--tertiary>button.is-selected.is-disabled, .ButtonGroup--tertiary>button.is-selected.is-disabled:focus, .ButtonGroup--tertiary>button.is-selected[disabled], .ButtonGroup--tertiary>input.is-selected.is-disabled[type=button], .ButtonGroup--tertiary>input.is-selected.is-disabled[type=button]:focus, .ButtonGroup--tertiary>input.is-selected[disabled][type=button], .follow-btn.is-disabled .ButtonGroup--tertiary>.ButtonGroup>button.is-selected, .follow-btn.is-disabled .ButtonGroup--tertiary>button.is-selected, fieldset[disabled] .ButtonGroup--tertiary>.Button.is-selected, fieldset[disabled] .ButtonGroup--tertiary>.ButtonGroup>.Button.is-selected, fieldset[disabled] .ButtonGroup--tertiary>.ButtonGroup>button.is-selected, fieldset[disabled] .ButtonGroup--tertiary>.ButtonGroup>input.is-selected[type=button], fieldset[disabled] .ButtonGroup--tertiary>button.is-selected, fieldset[disabled] .ButtonGroup--tertiary>input.is-selected[type=button] {
+  background-color: #657786;
+  border-color: #657786;
+}
+
+.Button, .Button.is-visited, .Button:visited, button, button.is-visited, button:visited, input.is-visited[type=button], input:visited[type=button], input[type=button] {
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+}
+
+.Button.is-focus, .Button:focus, button.is-focus, button:focus, input.is-focus[type=button], input:focus[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8;
+  background: #fff;
+  border-color: #1da1f2;
+  color: #1da1f2;
+}
+
+.Button.is-hover, .Button:hover, button.is-hover, button:hover, input.is-hover[type=button], input:hover[type=button] {
+  background-color: #eaf5fd;
+  color: #1da1f2;
+}
+
+.Button.is-active, .Button:active, button.is-active, button:active, input.is-active[type=button], input:active[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1da1f2;
+  background: #eaf5fd;
+  border-color: #1da1f2;
+  color: #1da1f2
+}
+
+.Button.is-disabled, .Button[disabled], .follow-btn.is-disabled button, button.is-disabled, button.is-disabled:focus, button[disabled], fieldset[disabled] .Button, fieldset[disabled] button, fieldset[disabled] input[type=button], input.is-disabled[type=button], input.is-disabled[type=button]:focus, input[disabled][type=button] {
+  background-color: #fff;
+}
+
+.Button.btn-fav.s-favorited, .Button.btn-fav.s-favorited:visited, .Button.Button--primary, .Button.Button--primary:visited, .ButtonGroup--primary>.Button, .ButtonGroup--primary>.Button:visited, .ButtonGroup--primary>.ButtonGroup>.Button, .ButtonGroup--primary>.ButtonGroup>.Button:visited, .ButtonGroup--primary>.ButtonGroup>button, .ButtonGroup--primary>.ButtonGroup>button:visited, .ButtonGroup--primary>.ButtonGroup>input:visited[type=button], .ButtonGroup--primary>.ButtonGroup>input[type=button], .ButtonGroup--primary>button, .ButtonGroup--primary>button:visited, .ButtonGroup--primary>input:visited[type=button], .ButtonGroup--primary>input[type=button], .s-following .follow-btn:hover .Button.following-text, .s-following .follow-btn:hover .Button.following-text:visited, .s-following .follow-btn:hover button.following-text, .s-following .follow-btn:hover button.following-text:visited, .s-following .follow-btn:hover input.following-text:visited[type=button], .s-following .follow-btn:hover input.following-text[type=button], button.btn-fav.s-favorited, button.btn-fav.s-favorited:visited, button.Button--primary, button.Button--primary:visited, input.btn-fav.s-favorited:visited[type=button], input.btn-fav.s-favorited[type=button], input.Button--primary:visited[type=button], input.Button--primary[type=button] {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  color: #fff
+}
+
+.Button.btn-fav.s-favorited:focus, .Button.Button--primary.is-focus, .Button.Button--primary:focus, .Button.is-focus.btn-fav.s-favorited, .ButtonGroup--primary>.Button.is-focus, .ButtonGroup--primary>.Button:focus, .ButtonGroup--primary>.ButtonGroup>.Button.is-focus, .ButtonGroup--primary>.ButtonGroup>.Button:focus, .ButtonGroup--primary>.ButtonGroup>button.is-focus, .ButtonGroup--primary>.ButtonGroup>button:focus, .ButtonGroup--primary>.ButtonGroup>input.is-focus[type=button], .ButtonGroup--primary>.ButtonGroup>input:focus[type=button], .ButtonGroup--primary>button.is-focus, .ButtonGroup--primary>button:focus, .ButtonGroup--primary>input.is-focus[type=button], .ButtonGroup--primary>input:focus[type=button], .s-following .follow-btn:hover .Button.following-text:focus, .s-following .follow-btn:hover .Button.is-focus.following-text, .s-following .follow-btn:hover button.following-text:focus, .s-following .follow-btn:hover button.is-focus.following-text, .s-following .follow-btn:hover input.following-text:focus[type=button], .s-following .follow-btn:hover input.is-focus.following-text[type=button], button.btn-fav.s-favorited:focus, button.Button--primary.is-focus, button.Button--primary:focus, button.is-focus.btn-fav.s-favorited, input.btn-fav.s-favorited:focus[type=button], input.Button--primary.is-focus[type=button], input.Button--primary:focus[type=button], input.is-focus.btn-fav.s-favorited[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8;
+  background: #1da1f2;
+  border-color: #1da1f2;
+  color: #fff
+}
+
+.Button.btn-fav.s-favorited:hover, .Button.Button--primary.is-hover, .Button.Button--primary:hover, .Button.is-hover.btn-fav.s-favorited, .ButtonGroup--primary>.Button.is-hover, .ButtonGroup--primary>.Button:hover, .ButtonGroup--primary>.ButtonGroup>.Button.is-hover, .ButtonGroup--primary>.ButtonGroup>.Button:hover, .ButtonGroup--primary>.ButtonGroup>button.is-hover, .ButtonGroup--primary>.ButtonGroup>button:hover, .ButtonGroup--primary>.ButtonGroup>input.is-hover[type=button], .ButtonGroup--primary>.ButtonGroup>input:hover[type=button], .ButtonGroup--primary>button.is-hover, .ButtonGroup--primary>button:hover, .ButtonGroup--primary>input.is-hover[type=button], .ButtonGroup--primary>input:hover[type=button], .s-following .follow-btn:hover .Button.following-text:hover, .s-following .follow-btn:hover .Button.is-hover.following-text, .s-following .follow-btn:hover button.following-text:hover, .s-following .follow-btn:hover button.is-hover.following-text, .s-following .follow-btn:hover input.following-text:hover[type=button], .s-following .follow-btn:hover input.is-hover.following-text[type=button], button.btn-fav.s-favorited:hover, button.Button--primary.is-hover, button.Button--primary:hover, button.is-hover.btn-fav.s-favorited, input.btn-fav.s-favorited:hover[type=button], input.Button--primary.is-hover[type=button], input.Button--primary:hover[type=button], input.is-hover.btn-fav.s-favorited[type=button] {
+  background-color: #005fd1;
+  border-color: #005fd1;
+  color: #fff
+}
+
+.Button.btn-fav.s-favorited:active, .Button.Button--primary.is-active, .Button.Button--primary:active, .Button.is-active.btn-fav.s-favorited, .ButtonGroup--primary>.Button.is-active, .ButtonGroup--primary>.Button:active, .ButtonGroup--primary>.ButtonGroup>.Button.is-active, .ButtonGroup--primary>.ButtonGroup>.Button:active, .ButtonGroup--primary>.ButtonGroup>button.is-active, .ButtonGroup--primary>.ButtonGroup>button:active, .ButtonGroup--primary>.ButtonGroup>input.is-active[type=button], .ButtonGroup--primary>.ButtonGroup>input:active[type=button], .ButtonGroup--primary>button.is-active, .ButtonGroup--primary>button:active, .ButtonGroup--primary>input.is-active[type=button], .ButtonGroup--primary>input:active[type=button], .s-following .follow-btn:hover .Button.following-text:active, .s-following .follow-btn:hover .Button.is-active.following-text, .s-following .follow-btn:hover button.following-text:active, .s-following .follow-btn:hover button.is-active.following-text, .s-following .follow-btn:hover input.following-text:active[type=button], .s-following .follow-btn:hover input.is-active.following-text[type=button], button.btn-fav.s-favorited:active, button.Button--primary.is-active, button.Button--primary:active, button.is-active.btn-fav.s-favorited, input.btn-fav.s-favorited:active[type=button], input.Button--primary.is-active[type=button], input.Button--primary:active[type=button], input.is-active.btn-fav.s-favorited[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1da1f2;
+  background-color: #005fd1;
+  border-color: #005fd1;
+  color: #fff
+}
+
+.Button.btn-fav.s-favorited[disabled], .Button.Button--primary.is-disabled, .Button.Button--primary[disabled], .Button.is-disabled.btn-fav.s-favorited, .ButtonGroup--primary>.Button.is-disabled, .ButtonGroup--primary>.Button[disabled], .ButtonGroup--primary>.ButtonGroup>.Button.is-disabled, .ButtonGroup--primary>.ButtonGroup>.Button[disabled], .ButtonGroup--primary>.ButtonGroup>button.is-disabled, .ButtonGroup--primary>.ButtonGroup>button.is-disabled:focus, .ButtonGroup--primary>.ButtonGroup>button[disabled], .ButtonGroup--primary>.ButtonGroup>input.is-disabled[type=button], .ButtonGroup--primary>.ButtonGroup>input.is-disabled[type=button]:focus, .ButtonGroup--primary>.ButtonGroup>input[disabled][type=button], .ButtonGroup--primary>button.is-disabled, .ButtonGroup--primary>button.is-disabled:focus, .ButtonGroup--primary>button[disabled], .ButtonGroup--primary>input.is-disabled[type=button], .ButtonGroup--primary>input.is-disabled[type=button]:focus, .ButtonGroup--primary>input[disabled][type=button], .follow-btn.is-disabled .ButtonGroup--primary>.ButtonGroup>button, .follow-btn.is-disabled .ButtonGroup--primary>button, .follow-btn.is-disabled .s-following .follow-btn:hover button.following-text, .follow-btn.is-disabled button.btn-fav.s-favorited, .follow-btn.is-disabled button.Button--primary, .s-following .follow-btn:hover .Button.following-text[disabled], .s-following .follow-btn:hover .Button.is-disabled.following-text, .s-following .follow-btn:hover .follow-btn.is-disabled button.following-text, .s-following .follow-btn:hover button.following-text[disabled], .s-following .follow-btn:hover button.is-disabled.following-text, .s-following .follow-btn:hover button.is-disabled.following-text:focus, .s-following .follow-btn:hover fieldset[disabled] .Button.following-text, .s-following .follow-btn:hover fieldset[disabled] button.following-text, .s-following .follow-btn:hover fieldset[disabled] input.following-text[type=button], .s-following .follow-btn:hover input.following-text[disabled][type=button], .s-following .follow-btn:hover input.is-disabled.following-text[type=button], .s-following .follow-btn:hover input.is-disabled.following-text[type=button]:focus, button.btn-fav.s-favorited[disabled], button.Button--primary.is-disabled, button.Button--primary.is-disabled:focus, button.Button--primary[disabled], button.is-disabled.btn-fav.s-favorited, button.is-disabled.btn-fav.s-favorited:focus, fieldset[disabled] .Button.btn-fav.s-favorited, fieldset[disabled] .Button.Button--primary, fieldset[disabled] .ButtonGroup--primary>.Button, fieldset[disabled] .ButtonGroup--primary>.ButtonGroup>.Button, fieldset[disabled] .ButtonGroup--primary>.ButtonGroup>button, fieldset[disabled] .ButtonGroup--primary>.ButtonGroup>input[type=button], fieldset[disabled] .ButtonGroup--primary>button, fieldset[disabled] .ButtonGroup--primary>input[type=button], fieldset[disabled] .s-following .follow-btn:hover .Button.following-text, fieldset[disabled] .s-following .follow-btn:hover button.following-text, fieldset[disabled] .s-following .follow-btn:hover input.following-text[type=button], fieldset[disabled] button.btn-fav.s-favorited, fieldset[disabled] button.Button--primary, fieldset[disabled] input.btn-fav.s-favorited[type=button], fieldset[disabled] input.Button--primary[type=button], input.btn-fav.s-favorited[disabled][type=button], input.Button--primary.is-disabled[type=button], input.Button--primary.is-disabled[type=button]:focus, input.Button--primary[disabled][type=button], input.is-disabled.btn-fav.s-favorited[type=button], input.is-disabled.btn-fav.s-favorited[type=button]:focus {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.Button.Button--tertiary, .Button.Button--tertiary:visited, .ButtonGroup--tertiary>.Button, .ButtonGroup--tertiary>.Button:visited, .ButtonGroup--tertiary>.ButtonGroup>.Button, .ButtonGroup--tertiary>.ButtonGroup>.Button:visited, .ButtonGroup--tertiary>.ButtonGroup>button, .ButtonGroup--tertiary>.ButtonGroup>button:visited, .ButtonGroup--tertiary>.ButtonGroup>input:visited[type=button], .ButtonGroup--tertiary>.ButtonGroup>input[type=button], .ButtonGroup--tertiary>button, .ButtonGroup--tertiary>button:visited, .ButtonGroup--tertiary>input:visited[type=button], .ButtonGroup--tertiary>input[type=button], button.Button--tertiary, button.Button--tertiary:visited, input.Button--tertiary:visited[type=button], input.Button--tertiary[type=button] {
+  background-color: #fff;
+  border: 1px solid #657786;
+  color: #657786
+}
+
+.Button.Button--tertiary.is-focus, .Button.Button--tertiary:focus, .ButtonGroup--tertiary>.Button.is-focus, .ButtonGroup--tertiary>.Button:focus, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-focus, .ButtonGroup--tertiary>.ButtonGroup>.Button:focus, .ButtonGroup--tertiary>.ButtonGroup>button.is-focus, .ButtonGroup--tertiary>.ButtonGroup>button:focus, .ButtonGroup--tertiary>.ButtonGroup>input.is-focus[type=button], .ButtonGroup--tertiary>.ButtonGroup>input:focus[type=button], .ButtonGroup--tertiary>button.is-focus, .ButtonGroup--tertiary>button:focus, .ButtonGroup--tertiary>input.is-focus[type=button], .ButtonGroup--tertiary>input:focus[type=button], button.Button--tertiary.is-focus, button.Button--tertiary:focus, input.Button--tertiary.is-focus[type=button], input.Button--tertiary:focus[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ccd6dd;
+  background: #fff;
+  border-color: #657786;
+  color: #657786
+}
+
+.Button.Button--tertiary.is-hover, .Button.Button--tertiary:hover, .ButtonGroup--tertiary>.Button.is-hover, .ButtonGroup--tertiary>.Button:hover, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-hover, .ButtonGroup--tertiary>.ButtonGroup>.Button:hover, .ButtonGroup--tertiary>.ButtonGroup>button.is-hover, .ButtonGroup--tertiary>.ButtonGroup>button:hover, .ButtonGroup--tertiary>.ButtonGroup>input.is-hover[type=button], .ButtonGroup--tertiary>.ButtonGroup>input:hover[type=button], .ButtonGroup--tertiary>button.is-hover, .ButtonGroup--tertiary>button:hover, .ButtonGroup--tertiary>input.is-hover[type=button], .ButtonGroup--tertiary>input:hover[type=button], button.Button--tertiary.is-hover, button.Button--tertiary:hover, input.Button--tertiary.is-hover[type=button], input.Button--tertiary:hover[type=button] {
+  background-color: #f5f8fa;
+  border-color: #657786;
+  color: #657786
+}
+
+.Button.Button--tertiary.is-active, .Button.Button--tertiary:active, .ButtonGroup--tertiary>.Button.is-active, .ButtonGroup--tertiary>.Button:active, .ButtonGroup--tertiary>.ButtonGroup>.Button.is-active, .ButtonGroup--tertiary>.ButtonGroup>.Button:active, .ButtonGroup--tertiary>.ButtonGroup>button.is-active, .ButtonGroup--tertiary>.ButtonGroup>button:active, .ButtonGroup--tertiary>.ButtonGroup>input.is-active[type=button], .ButtonGroup--tertiary>.ButtonGroup>input:active[type=button], .ButtonGroup--tertiary>button.is-active, .ButtonGroup--tertiary>button:active, .ButtonGroup--tertiary>input.is-active[type=button], .ButtonGroup--tertiary>input:active[type=button], button.Button--tertiary.is-active, button.Button--tertiary:active, input.Button--tertiary.is-active[type=button], input.Button--tertiary:active[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #657786;
+  background-color: #f5f8fa;
+  border-color: #657786;
+  color: #657786
+}
+
+.Button.Button--tertiary.is-disabled, .Button.Button--tertiary[disabled], .ButtonGroup--tertiary>.Button.is-disabled, .ButtonGroup--tertiary>.Button[disabled], .ButtonGroup--tertiary>.ButtonGroup>.Button.is-disabled, .ButtonGroup--tertiary>.ButtonGroup>.Button[disabled], .ButtonGroup--tertiary>.ButtonGroup>button.is-disabled, .ButtonGroup--tertiary>.ButtonGroup>button.is-disabled:focus, .ButtonGroup--tertiary>.ButtonGroup>button[disabled], .ButtonGroup--tertiary>.ButtonGroup>input.is-disabled[type=button], .ButtonGroup--tertiary>.ButtonGroup>input.is-disabled[type=button]:focus, .ButtonGroup--tertiary>.ButtonGroup>input[disabled][type=button], .ButtonGroup--tertiary>button.is-disabled, .ButtonGroup--tertiary>button.is-disabled:focus, .ButtonGroup--tertiary>button[disabled], .ButtonGroup--tertiary>input.is-disabled[type=button], .ButtonGroup--tertiary>input.is-disabled[type=button]:focus, .ButtonGroup--tertiary>input[disabled][type=button], .follow-btn.is-disabled .ButtonGroup--tertiary>.ButtonGroup>button, .follow-btn.is-disabled .ButtonGroup--tertiary>button, .follow-btn.is-disabled button.Button--tertiary, button.Button--tertiary.is-disabled, button.Button--tertiary.is-disabled:focus, button.Button--tertiary[disabled], fieldset[disabled] .Button.Button--tertiary, fieldset[disabled] .ButtonGroup--tertiary>.Button, fieldset[disabled] .ButtonGroup--tertiary>.ButtonGroup>.Button, fieldset[disabled] .ButtonGroup--tertiary>.ButtonGroup>button, fieldset[disabled] .ButtonGroup--tertiary>.ButtonGroup>input[type=button], fieldset[disabled] .ButtonGroup--tertiary>button, fieldset[disabled] .ButtonGroup--tertiary>input[type=button], fieldset[disabled] button.Button--tertiary, fieldset[disabled] input.Button--tertiary[type=button], input.Button--tertiary.is-disabled[type=button], input.Button--tertiary.is-disabled[type=button]:focus, input.Button--tertiary[disabled][type=button] {
+  background-color: #fff;
+  border-color: #657786;
+}
+
+.Button.Button--success, .Button.Button--success:visited, button.Button--success, button.Button--success:visited, input.Button--success:visited[type=button], input.Button--success[type=button] {
+  background-color: #17bf63;
+  border: 1px solid #17bf63;
+  color: #fff
+}
+
+.Button.Button--success.is-focus, .Button.Button--success:focus, button.Button--success.is-focus, button.Button--success:focus, input.Button--success.is-focus[type=button], input.Button--success:focus[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #68e090;
+  background: #17bf63;
+  border-color: #17bf63;
+  color: #fff
+}
+
+.Button.Button--success.is-hover, .Button.Button--success:hover, button.Button--success.is-hover, button.Button--success:hover, input.Button--success.is-hover[type=button], input.Button--success:hover[type=button] {
+  background-color: #008951;
+  border-color: #008951;
+  color: #fff
+}
+
+.Button.Button--success.is-active, .Button.Button--success:active, button.Button--success.is-active, button.Button--success:active, input.Button--success.is-active[type=button], input.Button--success:active[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #17bf63;
+  background-color: #008951;
+  border-color: #008951;
+  color: #fff
+}
+
+.Button.Button--success.is-disabled, .Button.Button--success[disabled], .follow-btn.is-disabled button.Button--success, button.Button--success.is-disabled, button.Button--success.is-disabled:focus, button.Button--success[disabled], fieldset[disabled] .Button.Button--success, fieldset[disabled] button.Button--success, fieldset[disabled] input.Button--success[type=button], input.Button--success.is-disabled[type=button], input.Button--success.is-disabled[type=button]:focus, input.Button--success[disabled][type=button] {
+  background-color: #17bf63;
+  border-color: #17bf63;
+}
+
+.Button.Button--warning, .Button.Button--warning:visited, button.Button--warning, button.Button--warning:visited, input.Button--warning:visited[type=button], input.Button--warning[type=button] {
+  background-color: #ffad1f;
+  border: 1px solid #ffad1f;
+  color: #fff
+}
+
+.Button.Button--warning.is-focus, .Button.Button--warning:focus, button.Button--warning.is-focus, button.Button--warning:focus, input.Button--warning.is-focus[type=button], input.Button--warning:focus[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ffd03f;
+  background: #ffad1f;
+  border-color: #ffad1f;
+  color: #fff
+}
+
+.Button.Button--warning.is-hover, .Button.Button--warning:hover, button.Button--warning.is-hover, button.Button--warning:hover, input.Button--warning.is-hover[type=button], input.Button--warning:hover[type=button] {
+  background-color: #f98e00;
+  border-color: #f98e00;
+  color: #fff
+}
+
+.Button.Button--warning.is-active, .Button.Button--warning:active, button.Button--warning.is-active, button.Button--warning:active, input.Button--warning.is-active[type=button], input.Button--warning:active[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ffad1f;
+  background-color: #f98e00;
+  border-color: #f98e00;
+  color: #fff
+}
+
+.Button.Button--warning.is-disabled, .Button.Button--warning[disabled], .follow-btn.is-disabled button.Button--warning, button.Button--warning.is-disabled, button.Button--warning.is-disabled:focus, button.Button--warning[disabled], fieldset[disabled] .Button.Button--warning, fieldset[disabled] button.Button--warning, fieldset[disabled] input.Button--warning[type=button], input.Button--warning.is-disabled[type=button], input.Button--warning.is-disabled[type=button]:focus, input.Button--warning[disabled][type=button] {
+  background-color: #ffad1f;
+  border-color: #ffad1f;
+}
+
+.Button.btn-fav-unfav-text, .Button.btn-fav-unfav-text:visited, .Button.Button--danger, .Button.Button--danger:visited, .s-following .follow-btn:hover .unfollow-text, .s-following .follow-btn:hover .unfollow-text:visited, button.btn-fav-unfav-text, button.btn-fav-unfav-text:visited, button.Button--danger, button.Button--danger:visited, input.btn-fav-unfav-text:visited[type=button], input.btn-fav-unfav-text[type=button], input.Button--danger:visited[type=button], input.Button--danger[type=button] {
+  background-color: #e0245e;
+  border: 1px solid #e0245e;
+  color: #fff
+}
+
+.Button.btn-fav-unfav-text:focus, .Button.Button--danger.is-focus, .Button.Button--danger:focus, .Button.is-focus.btn-fav-unfav-text, .s-following .follow-btn:hover .is-focus.unfollow-text, .s-following .follow-btn:hover .unfollow-text:focus, button.btn-fav-unfav-text:focus, button.Button--danger.is-focus, button.Button--danger:focus, button.is-focus.btn-fav-unfav-text, input.btn-fav-unfav-text:focus[type=button], input.Button--danger.is-focus[type=button], input.Button--danger:focus[type=button], input.is-focus.btn-fav-unfav-text[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f6809a;
+  background: #e0245e;
+  border-color: #e0245e;
+  color: #fff
+}
+
+.Button.btn-fav-unfav-text:hover, .Button.Button--danger.is-hover, .Button.Button--danger:hover, .Button.is-hover.btn-fav-unfav-text, .s-following .follow-btn:hover .is-hover.unfollow-text, .s-following .follow-btn:hover .unfollow-text:hover, button.btn-fav-unfav-text:hover, button.Button--danger.is-hover, button.Button--danger:hover, button.is-hover.btn-fav-unfav-text, input.btn-fav-unfav-text:hover[type=button], input.Button--danger.is-hover[type=button], input.Button--danger:hover[type=button], input.is-hover.btn-fav-unfav-text[type=button] {
+  background-color: #a01744;
+  border-color: #a01744;
+  color: #fff
+}
+
+.Button.btn-fav-unfav-text:active, .Button.Button--danger.is-active, .Button.Button--danger:active, .Button.is-active.btn-fav-unfav-text, .s-following .follow-btn:hover .is-active.unfollow-text, .s-following .follow-btn:hover .unfollow-text:active, button.btn-fav-unfav-text:active, button.Button--danger.is-active, button.Button--danger:active, button.is-active.btn-fav-unfav-text, input.btn-fav-unfav-text:active[type=button], input.Button--danger.is-active[type=button], input.Button--danger:active[type=button], input.is-active.btn-fav-unfav-text[type=button] {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #e0245e;
+  background-color: #a01744;
+  border-color: #a01744;
+  color: #fff
+}
+
+.Button.btn-fav-unfav-text[disabled], .Button.Button--danger.is-disabled, .Button.Button--danger[disabled], .Button.is-disabled.btn-fav-unfav-text, .follow-btn.is-disabled button.btn-fav-unfav-text, .follow-btn.is-disabled button.Button--danger, .s-following .follow-btn:hover .is-disabled.unfollow-text, .s-following .follow-btn:hover .unfollow-text[disabled], .s-following .follow-btn:hover fieldset[disabled] .unfollow-text, button.btn-fav-unfav-text[disabled], button.Button--danger.is-disabled, button.Button--danger.is-disabled:focus, button.Button--danger[disabled], button.is-disabled.btn-fav-unfav-text, button.is-disabled.btn-fav-unfav-text:focus, fieldset[disabled] .Button.btn-fav-unfav-text, fieldset[disabled] .Button.Button--danger, fieldset[disabled] .s-following .follow-btn:hover .unfollow-text, fieldset[disabled] button.btn-fav-unfav-text, fieldset[disabled] button.Button--danger, fieldset[disabled] input.btn-fav-unfav-text[type=button], fieldset[disabled] input.Button--danger[type=button], input.btn-fav-unfav-text[disabled][type=button], input.Button--danger.is-disabled[type=button], input.Button--danger.is-disabled[type=button]:focus, input.Button--danger[disabled][type=button], input.is-disabled.btn-fav-unfav-text[type=button], input.is-disabled.btn-fav-unfav-text[type=button]:focus {
+  background-color: #e0245e;
+  border-color: #e0245e;
+}
+
+.Button.Button--link, button.Button--link, input.Button--link[type=button] {
+  background: transparent;
+  border-color: transparent;
+  color: #1b95e0;
+}
+
+.Button.Button--link.is-active, .Button.Button--link.is-focus, .Button.Button--link.is-hover, .Button.Button--link:active, .Button.Button--link:focus, .Button.Button--link:hover, button.Button--link.is-active, button.Button--link.is-focus, button.Button--link.is-hover, button.Button--link:active, button.Button--link:focus, button.Button--link:hover, input.Button--link.is-active[type=button], input.Button--link.is-focus[type=button], input.Button--link.is-hover[type=button], input.Button--link:active[type=button], input.Button--link:focus[type=button], input.Button--link:hover[type=button] {
+  background: transparent;
+  border-color: transparent;
+}
+
+.Button.Button--dangerLink, button.Button--dangerLink, input.Button--dangerLink[type=button] {
+  background: transparent;
+  border-color: transparent;
+  color: #e0245e;
+}
+
+.Button.Button--dangerLink.is-active, .Button.Button--dangerLink.is-focus, .Button.Button--dangerLink.is-hover, .Button.Button--dangerLink:active, .Button.Button--dangerLink:focus, .Button.Button--dangerLink:hover, button.Button--dangerLink.is-active, button.Button--dangerLink.is-focus, button.Button--dangerLink.is-hover, button.Button--dangerLink:active, button.Button--dangerLink:focus, button.Button--dangerLink:hover, input.Button--dangerLink.is-active[type=button], input.Button--dangerLink.is-focus[type=button], input.Button--dangerLink.is-hover[type=button], input.Button--dangerLink:active[type=button], input.Button--dangerLink:focus[type=button], input.Button--dangerLink:hover[type=button] {
+  background: transparent;
+  border-color: transparent;
+}
+
+button.btn-options-tray, input[type=button].btn-options-tray {
+  color: #8899a6!important
+}
+
+button.btn-options-tray:focus, button.btn-options-tray:hover, input[type=button].btn-options-tray:focus, input[type=button].btn-options-tray:hover {
+  color: #1da1f2!important
+}
+
+button.btn-bg-positive, input[type=button].btn-bg-positive {
+  background-color: #eaf5fd
+}
+
+button.btn-bg-positive:focus, button.btn-bg-positive:hover, input[type=button].btn-bg-positive:focus, input[type=button].btn-bg-positive:hover {
+  background-color: #eaf5fd
+}
+
+button.btn-bg-positive.is-disabled, button.btn-bg-positive.is-disabled:active, button.btn-bg-positive.is-disabled:focus, button.btn-bg-positive.is-disabled:hover, button.btn-bg-positive[disabled], button.btn-bg-positive[disabled]:active, button.btn-bg-positive[disabled]:hover, input[type=button].btn-bg-positive.is-disabled, input[type=button].btn-bg-positive.is-disabled:active, input[type=button].btn-bg-positive.is-disabled:focus, input[type=button].btn-bg-positive.is-disabled:hover, input[type=button].btn-bg-positive[disabled], input[type=button].btn-bg-positive[disabled]:active, input[type=button].btn-bg-positive[disabled]:hover {
+  background-color: #eaf5fd
+}
+
+button.text-hidden, button.text-hidden:active, button.text-hidden:focus, button.text-hidden:hover, button.text-hidden:link, button.text-hidden:visited, input[type=button].text-hidden, input[type=button].text-hidden:active, input[type=button].text-hidden:focus, input[type=button].text-hidden:hover, input[type=button].text-hidden:link, input[type=button].text-hidden:visited {
+  color: transparent
+}
+
+button.btn-on-dark.btn-fav-unfav-text, button.Button--danger.btn-on-dark, input.btn-fav-unfav-text[type=button].btn-on-dark, input[type=button].Button--danger.btn-on-dark {
+  background-color: #e0245e
+}
+
+button.btn-on-dark, input[type=button].btn-on-dark {
+  background-color: transparent
+}
+
+button.btn-on-dark.is-selected, button.btn-on-dark:active, button.btn-on-dark:focus, button.btn-on-dark:hover, input[type=button].btn-on-dark.is-selected, input[type=button].btn-on-dark:active, input[type=button].btn-on-dark:focus, input[type=button].btn-on-dark:hover {
+  background-color: #eaf5fd
+}
+
+button.btn-on-dark:focus, input[type=button].btn-on-dark:focus {
+  box-shadow: 0 0 0 2px #eaf5fd, 0 0 0 4px #1da1f2
+}
+
+.btn-on-blue {
+  color: #fff;
+  border-color: transparent;
+  background-color: #1da1f2
+}
+
+.btn-on-blue:hover {
+  color: #fff;
+  border-color: transparent;
+  background-color: #005fd1
+}
+
+.btn-on-blue:focus {
+  color: #fff;
+  border-color: transparent;
+  background-color: #005fd1;
+  box-shadow: 0 0 2px 3px #1da1f2;
+}
+
+.btn-on-blue.is-selected, .btn-on-blue:active {
+  color: #fff;
+  border-color: transparent;
+  background-color: #005fd1
+}
+
+.btn-on-blue.is-disabled, .btn-on-blue.is-disabled:active, .btn-on-blue.is-disabled:focus, .btn-on-blue.is-disabled:hover, .btn-on-blue[disabled], .btn-on-blue[disabled]:active, .btn-on-blue[disabled]:hover {
+  color: #fff;
+  background-color: #1da1f2;
+  border-color: transparent
+}
+
+.follow-btn .icon, .follow-btn .Icon {
+  color: #1da1f2
+}
+
+.accounts-drawer {
+  background: #f5f8fa!important
+}
+
+.account-profile-header {
+  background-color: #1da1f2;
+}
+
+.account-settings-row {
+  background: #fff
+}
+
+.account-remove-check {
+  background: #f5f8fa
+}
+
+.account-settings-bt {
+  border-top: 1px solid #e1e8ed
+}
+
+.account-settings-bb {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.account-stats a {
+  color: #657786;
+  text-decoration: none
+}
+
+.account-stats a:hover {
+  color: #1da1f2
+}
+
+.manage-team-summary {
+  background: #fff
+}
+
+.column {
+  background-color: #fff;
+}
+
+.column.is-focused {
+  box-shadow: 0 0 0 5px #1da1f2
+}
+
+.column-panel {
+  background: #fff
+}
+
+.column-nav:after {
+  border-top: 1px solid #e1e8ed
+}
+
+.column-nav .nav-item button {
+  background-color: transparent;
+  color: #657786;
+  transition: border-color .2s, background-color .2s, color .2s;
+  border-bottom: 3px solid transparent
+}
+
+.column-nav .nav-item button.active, .column-nav .nav-item button:hover {
+  color: #1da1f2
+}
+
+.column-nav .nav-item button:hover {
+  border-color: transparent;
+  background-color: #f5f8fa
+}
+
+.column-nav .nav-item button.active {
+  border-bottom: 3px solid #1da1f2
+}
+
+.column-nav .nav-item button:active {
+  background-color: #e1e8ed
+}
+
+.column-background-fill {
+  background-color: #fff
+}
+
+.more-tweets-glow {
+  background-color: #1da1f2;
+  background: radial-gradient(ellipse farthest-corner at 50% 100%, #1da1f2 0, #1da1f2 25%, hsla(0, 0%, 100%, 0) 75%)
+}
+
+.more-tweets-btn {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+}
+
+.more-tweets-btn:active, .more-tweets-btn:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3)
+}
+
+.more-tweets-btn-container--loading .more-tweets-btn, .more-tweets-btn-container--mouse-release .more-tweets-btn {
+  background-color: #657786
+}
+
+.drag-drop-indicator {
+  background-color: #1da1f2;
+  color: #657786
+}
+
+.location-form .typeahead-dropdown {
+  background: #fff;
+}
+
+.location-form .Icon--close, .location-form .icon-close {
+  background-color: hsla(0, 0%, 100%, .35)
+}
+
+.location-form .Icon--close, .location-form .icon-close {
+  background-color: #fff;
+}
+
+.search-filter-callout-triangle {
+  border: 7px solid transparent;
+  border-bottom-color: #1da1f2
+}
+
+.live-video-timelines {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.live-video-timelines button:active, .live-video-timelines button:focus, .live-video-timelines button:hover {
+  background-color: #fff
+}
+
+.column-type-scheduled {
+  background-color: #f5f8fa
+}
+
+.column-header, .column-header-temp {
+  color: #38444d;
+  background-color: #fff;
+}
+
+.column-header, .column-header-temp {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.column-title-container {
+  color: #38444d
+}
+
+.column-title-container:hover .column-title-items {
+  border-bottom: 1px #38444d;
+}
+
+.column-title-edit-box {
+  color: #14171a;
+  background-color: #f5f8fa;
+  border-color: #e1e8ed
+}
+
+.column-number {
+  color: #aab8c2;
+}
+
+.column-title-back {
+  color: #38444d;
+}
+
+.column-header .column-type-icon {
+  color: #657786
+}
+
+.column-header.is-options-open .column-settings-link {
+  background-color: transparent;
+  color: #1da1f2;
+  border-color: #e1e8ed;
+}
+
+.column-header.is-options-open .column-settings-link:hover {
+  color: #1da1f2
+}
+
+.is-new .column-type-icon {
+  color: #1da1f2
+}
+
+.column-header-link {
+  color: #1da1f2;
+}
+
+.column-header-link:active, .column-header-link:focus, .column-header-link:hover {
+  color: #1da1f2;
+  background-color: transparent
+}
+
+.column-message {
+  background-color: #fff
+}
+
+.filter-error {
+  color: #fff;
+  background-color: #a01744;
+}
+
+.facet-content {
+  color: #ffb8c2
+}
+
+.facet-user {
+  color: #ffe76e
+}
+
+.facet-action {
+  color: #9cd1d4
+}
+
+.facet-engagement {
+  color: #8899a6
+}
+
+.edit-conversation-name {
+  color: #38444d;
+  border-bottom: 1px solid #e1e8ed;
+  background-color: #fff
+}
+
+.edit-conversation-name input {
+  color: #14171a;
+  background-color: #fff;
+  border-color: #e1e8ed
+}
+
+.column-options {
+  background-color: #fff
+}
+
+.with-column-divider-bottom {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.column-options .button-tray {
+  background-color: #fff;
+}
+
+.btn-options-unique {
+  color: #8899a6;
+}
+
+.column-nav-updates {
+  color: #1da1f2;
+}
+
+.contributor-manager .link-complex {
+  border: 1px solid #e1e8ed
+}
+
+.contributor-settings-role {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.contributor-adder-block {
+  box-shadow: 0 0 10px transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.contributor-row[data-state=confirmAdd] {
+  background-color: #fff
+}
+
+.contributor-row[data-state=confirmAdd-added] {
+  background-color: #fff
+}
+
+.contributor-row[data-state=confirmDeadmin] {
+  background-color: #fff
+}
+
+.contributor-row[data-state=confirmRemove-removing], .contributor-row[data-state=confirmRemove] {
+  background-color: #fff
+}
+
+.contributor-row[data-state=confirmRemove-removing] {
+  background-color: #fff
+}
+
+.search-results-container .stream-item, .stream-item {
+  background-color: #fff
+}
+
+.is-streamed {
+  background-color: #c7b4fa
+}
+
+.is-contented {
+  background-color: #f45d22
+}
+
+.gap-chirp {
+  background-color: #e1e8ed;
+  color: #8899a6;
+}
+.gap-chirp:active .gap-chirp-text--with-size, .gap-chirp:hover .gap-chirp-text--with-size {
+  background: #d7e1e7
+}
+
+.gap-chirp-text {
+  border: 1px solid transparent;
+}
+
+.gap-chirp-text--with-size {
+  border-color: #b4bfc7
+}
+
+.thread {
+  background-color: #e1e8ed;
+}
+
+.list-item {
+  color: #657786
+}
+
+.list-item.is-selected, .list-item:active, .list-item:hover {
+  background-color: #1da1f2;
+  color: #fff
+}
+
+.list-item:hover:not(.is-selected) {
+  background-color: transparent;
+  color: #657786
+}
+
+.list-item.is-selected .txt-mute, .list-item:active .txt-mute, .list-item:hover .txt-mute {
+  color: #e1e8ed
+}
+
+.list-item.is-selected .list-icon, .list-item:active .list-icon, .list-item:hover .list-icon {
+  color: #fff
+}
+
+.list-item:hover:not(.is-selected) .list-icon {
+  background-color: transparent;
+  color: #8899a6
+}
+
+.list-icon {
+  color: #8899a6
+}
+
+.list-item-button {
+  color: #aab8c2;
+  background-color: #f5f8fa;
+}
+
+.list-placeholder {
+  color: #8899a6;
+  text-shadow: 0 1px 0 hsla(0, 0%, 100%, .8)
+}
+
+.is-touch-search .list-item.is-selected, .is-touch-search .list-item:active, .is-touch-search .list-item:hover {
+  background-color: #1da1f2;
+  color: #fff
+}
+
+.is-touch-search .list-item.is-selected .list-icon, .is-touch-search .list-item:active .list-icon, .is-touch-search .list-item:hover .list-icon {
+  color: #fff
+}
+
+.avatar-border--2 {
+  border: 2px solid #fff;
+  background-color: #fff
+}
+
+.account-link {
+  color: #38444d
+}
+
+.on-blue .account-link {
+  color: #fff
+}
+
+.compose .quoted-tweet .account-link {
+  color: #657786
+}
+
+.media-badge {
+  border: 1px solid #e1e8ed;
+  color: #8899a6;
+}
+
+.media-badge:hover {
+  background-color: #f5f8fa
+}
+
+.media-item.media-size-large:after, .media-size-large-height:after {
+  background-image: linear-gradient(rgba(20, 23, 26, .25), rgba(20, 23, 26, 0))
+}
+
+.media-sensitive {
+  background: #e1e8ed;
+}
+
+.media-sensitive-title {
+  color: #38444d
+}
+
+.media-caret {
+  border: 7px solid transparent;
+  border-top-color: #fff
+}
+
+.video-overlay {
+  color: #fff;
+}
+
+.dm-action, .tweet-action, .tweet-detail-action {
+  color: #8899a6
+}
+
+.dm-action:active .icon-reply, .dm-action:active .reply-count, .dm-action:focus .icon-reply, .dm-action:focus .reply-count, .dm-action:hover .icon-reply, .dm-action:hover .reply-count, .is-selected.dm-action .icon-reply, .is-selected.dm-action .reply-count, .is-selected.tweet-detail-action .icon-reply, .is-selected.tweet-detail-action .reply-count, .tweet-action.is-selected .icon-reply, .tweet-action.is-selected .reply-count, .tweet-action:active .icon-reply, .tweet-action:active .reply-count, .tweet-action:focus .icon-reply, .tweet-action:focus .reply-count, .tweet-action:hover .icon-reply, .tweet-action:hover .reply-count, .tweet-detail-action:active .icon-reply, .tweet-detail-action:active .reply-count, .tweet-detail-action:focus .icon-reply, .tweet-detail-action:focus .reply-count, .tweet-detail-action:hover .icon-reply, .tweet-detail-action:hover .reply-count {
+  color: #1da1f2
+}
+
+.dm-action:active .icon-retweet, .dm-action:active .retweet-count, .dm-action:focus .icon-retweet, .dm-action:focus .retweet-count, .dm-action:hover .icon-retweet, .dm-action:hover .retweet-count, .is-selected.dm-action .icon-retweet, .is-selected.dm-action .retweet-count, .is-selected.tweet-detail-action .icon-retweet, .is-selected.tweet-detail-action .retweet-count, .tweet-action.is-selected .icon-retweet, .tweet-action.is-selected .retweet-count, .tweet-action:active .icon-retweet, .tweet-action:active .retweet-count, .tweet-action:focus .icon-retweet, .tweet-action:focus .retweet-count, .tweet-action:hover .icon-retweet, .tweet-action:hover .retweet-count, .tweet-detail-action:active .icon-retweet, .tweet-detail-action:active .retweet-count, .tweet-detail-action:focus .icon-retweet, .tweet-detail-action:focus .retweet-count, .tweet-detail-action:hover .icon-retweet, .tweet-detail-action:hover .retweet-count {
+  color: #17bf63
+}
+
+.dm-action:active .icon-favorite, .dm-action:active .like-count, .dm-action:focus .icon-favorite, .dm-action:focus .like-count, .dm-action:hover .icon-favorite, .dm-action:hover .like-count, .is-selected.dm-action .icon-favorite, .is-selected.dm-action .like-count, .is-selected.tweet-detail-action .icon-favorite, .is-selected.tweet-detail-action .like-count, .tweet-action.is-selected .icon-favorite, .tweet-action.is-selected .like-count, .tweet-action:active .icon-favorite, .tweet-action:active .like-count, .tweet-action:focus .icon-favorite, .tweet-action:focus .like-count, .tweet-action:hover .icon-favorite, .tweet-action:hover .like-count, .tweet-detail-action:active .icon-favorite, .tweet-detail-action:active .like-count, .tweet-detail-action:focus .icon-favorite, .tweet-detail-action:focus .like-count, .tweet-detail-action:hover .icon-favorite, .tweet-detail-action:hover .like-count {
+  color: #e0245e
+}
+
+.chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action {
+  color: #aab8c2
+}
+
+.chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:active, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:focus, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:hover, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .is-selected.dm-action, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .is-selected.tweet-detail-action, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action.is-selected, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:active, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:focus, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:hover, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:active, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:focus, .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:hover {
+  color: #8899a6;
+  text-decoration: none
+}
+
+.is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action, .is-inverted-light .dm-action, .is-inverted-light .tweet-action, .is-inverted-light .tweet-detail-action {
+  color: #8899a6
+}
+
+.is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:active, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:focus, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action:hover, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .is-selected.dm-action, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .is-selected.tweet-detail-action, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action.is-selected, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:active, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:focus, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action:hover, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:active, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:focus, .is-inverted-light .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action:hover, .is-inverted-light .dm-action:active, .is-inverted-light .dm-action:focus, .is-inverted-light .dm-action:hover, .is-inverted-light .is-selected.dm-action, .is-inverted-light .is-selected.tweet-detail-action, .is-inverted-light .tweet-action.is-selected, .is-inverted-light .tweet-action:active, .is-inverted-light .tweet-action:focus, .is-inverted-light .tweet-action:hover, .is-inverted-light .tweet-detail-action:active, .is-inverted-light .tweet-detail-action:focus, .is-inverted-light .tweet-detail-action:hover {
+  color: #fff
+}
+
+.is-retweet .icon-retweet-toggle {
+  color: #17bf63
+}
+
+.is-favorite .icon-favorite-toggle {
+  color: #e0245e
+}
+
+.is-minimalist .tweet-img {
+  background: #e1e8ed;
+}
+
+.is-selected-tweet {
+  background: #f5f8fa
+}
+
+.in-tweet-divider:before {
+  background: #e1e8ed
+}
+
+.tweet-translation-original-text {
+  color: #8899a6
+}
+
+.quoted-tweet {
+  border: 1px solid #e1e8ed;
+  color: #657786;
+}
+
+.scheduled-tweet {
+  border: 1px solid #e1e8ed;
+  color: #8899a6
+}
+
+.stream-item .icon-edit, .stream-item .icon-trash {
+  color: #aab8c2
+}
+
+.stream-item .icon-edit:hover, .stream-item .icon-trash:hover {
+  color: #8899a6
+}
+
+.tweet-detail-wrapper {
+  background: #fff
+}
+
+.tweet-stats {
+  border-top: 1px solid #e1e8ed;
+}
+
+.tweet-stat {
+  color: #38444d;
+}
+
+.stat-word {
+  color: #8899a6
+}
+
+.is-actionable:hover .stat-word {
+  color: #1da1f2
+}
+
+.tweet-detail-actions {
+  border-top: 1px solid #e1e8ed;
+}
+
+.conversation-more {
+  color: #1da1f2
+}
+
+.column-detail .is-selected-tweet {
+  background: #f5f8fa
+}
+
+.social-proof-for-tweet-title {
+  background-color: #f5f8fa;
+  color: #657786;
+  border-bottom: 1px solid #e1e8ed
+}
+
+.is-unread {
+  background: #eaf5fd
+}
+
+.is-unread .conversation-indicator, .is-unread .txt-mute {
+  color: #38444d
+}
+
+.is-unread.is-selected-tweet {
+  background: #71c9f8
+}
+
+.conversation-indicator {
+  color: #e1e8ed;
+}
+
+.conversation-event {
+  background-color: #fff
+}
+
+.conversation-event+.stream-item:not(.conversation-event), .conversation-event:first-child {
+  border-top: 1px solid #e1e8ed
+}
+
+.add-participant {
+  color: #38444d;
+  background-color: #fff
+}
+
+.rpl {
+  border-bottom: #e1e8ed
+}
+
+.rpl textarea {
+  box-shadow: inset 0 1px 1px rgba(20, 23, 26, .5);
+}
+
+.rpl input {
+  background: transparent;
+}
+
+.rpl input.over-char-count {
+  color: #f6809a
+}
+.spinner-button-is-active {
+  color: transparent!important
+}
+
+.spinner-button-with-progress {
+  color: #fff;
+}
+
+.app-header {
+  background-color: #1c2938;
+}
+
+.app-title {
+  background-color: #1c2938
+}
+
+.app-columns-container, .app-content {
+  background-color: #e1e8ed
+}
+
+.app-navigator {
+  background-color: #1c2938
+}
+
+.app-nav-link {
+  color: #1da1f2;
+}
+
+.app-nav-link-text {
+  color: #fff
+}
+
+.app-nav-link:active, .app-nav-link:focus {
+  color: #1da1f2
+}
+
+.app-nav-link.is-selected, .app-nav-link:hover {
+  color: #97e3ff
+}
+
+.app-nav-tab {
+  color: #1da1f2;
+}
+
+.app-nav-tab:hover {
+  color: #97e3ff
+}
+
+.app-nav-tab-text {
+  color: #fff
+}
+
+.app-nav-tab.is-selected {
+  background: #f5f8fa
+}
+
+.app-nav-tab.is-selected:hover {
+  color: #1da1f2
+}
+
+.app-nav-tab.is-selected .app-nav-tab-text {
+  color: #38444d
+}
+
+.attach-compose-buttons .Button.tweet-button, .attach-compose-buttons button.tweet-button, .attach-compose-buttons input.tweet-button[type=button] {
+  background-color: #2b7bb9
+}
+
+.with-nav-border-t:before {
+  border-top: 1px solid #8899a6
+}
+
+.app-search-fake, .app-search-input {
+  background-color: #10171e;
+  color: #e1e8ed;
+}
+
+.app-search-input {
+  border: 1px solid #000
+}
+
+.app-search-fake {
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+  background-color: transparent
+}
+
+.app-search-fake:hover {
+  background-color: transparent
+}
+
+.app-search-button {
+  color: #e1e8ed
+}
+
+.app-search-button:hover {
+  color: #e1e8ed
+}
+
+.message-banner .dismiss {
+  color: #38444d;
+}
+
+.typeahead {
+  background-color: #fff;
+  color: #38444d;
+}
+
+.typeahead .fullname {
+  color: #38444d;
+}
+
+.typeahead .username {
+  color: #8899a6;
+}
+
+.accordion, .accordion-popover {
+  color: #8899a6;
+}
+
+.accordion-divider-t {
+  border-top: 1px solid #e1e8ed
+}
+
+.accordion-header {
+  color: #8899a6
+}
+
+.accordion-header:hover {
+  color: #8899a6
+}
+
+.facet-type {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.facet-type-thumb-size {
+  border-top: 1px solid #e1e8ed;
+}
+
+.facet-type.is-active {
+  background-color: #f5f8fa
+}
+
+.facet-subtitle {
+  color: #1da1f2
+}
+
+.accordion .is-active {
+  color: #14171a
+}
+
+.accordion .is-active .accordion-header, .accordion .is-active .accordion-header:hover {
+  color: #14171a
+}
+
+.account-settings-row.is-highlighted {
+  background-color: #f5f8fa;
+  border-top: 1px solid #ccd6dd
+}
+
+.account-settings-row.is-highlighted:last-child {
+  border-bottom: 1px solid #ccd6dd
+}
+
+.join-team {
+  background: #fff;
+  border-top: 1px solid #e1e8ed;
+  border-bottom: 1px solid #e1e8ed
+}
+
+.account-row-separator-b:after {
+  background-color: #e1e8ed
+}
+
+.separator-a:before {
+  background-color: #e1e8ed
+}
+
+.tooltip-inner {
+  background-color: #14171a;
+  color: #fff;
+}
+
+.tooltip-arrow {
+  border: 5px dashed #14171a
+}
+
+.bottom {
+  border-bottom-color: #14171a
+}
+
+.top {
+  border-top-color: #14171a
+}
+
+.left {
+  border-left-color: #14171a
+}
+
+.right {
+  border-right-color: #14171a
+}
+
+.bottom .tooltip-arrow {
+  border-left-color: transparent;
+  border-right-color: transparent
+}
+
+.top .tooltip-arrow {
+  border-left-color: transparent;
+  border-right-color: transparent
+}
+
+.left .tooltip-arrow {
+  border-top-color: transparent;
+  border-bottom-color: transparent
+}
+
+.right .tooltip-arrow {
+  border-top-color: transparent;
+  border-bottom-color: transparent
+}
+
+.stroke-twitter-light-gray {
+  stroke: #ccd6dd
+}
+
+.stroke-twitter-blue {
+  stroke: #1da1f2
+}
+
+.stroke-twitter-yellow {
+  stroke: #ffad1f
+}
+
+.stroke-twitter-red {
+  stroke: #e0245e
+}
+
+.numbered-badge {
+  color: #fff;
+}
+
+.numbered-badge-onheader {
+  border: 2px solid #fff;
+}
+
+.numbered-badge-onnav {
+  border: 2px solid #1c2938;
+}
+
+.is-open .drawer:after {
+  box-shadow: 2px 0 1px rgba(0, 0, 0, .2);
+}
+
+.drawer-header {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.dataminr {
+  background-color: #f5f8fa
+}
+
+.txt-dataminr {
+  color: #8899a6
+}
+
+.dataminr-title {
+  background-color: #ccd6dd;
+  color: #657786
+}
+
+.dataminr-search-terms-detail {
+  color: #657786
+}
+
+.dataminr-separator {
+  border-bottom: 4px solid #e1e8ed
+}
+
+.is-dataminr-tweet {
+  background-color: #fff;
+}
+
+.dataminr-header, .dataminr-meta-link {
+  color: #8899a6
+}
+
+.dataminr-category-pill {
+  color: #fff;
+  background-color: #5585ad;
+}
+
+.dataminr-category-bg, .dataminr-category-ln, .dataminr-category-mbg, .dataminr-category-mn, .dataminr-category-rpr {
+  background-color: #1f90bf
+}
+
+.dataminr-category-er, .dataminr-category-gov, .dataminr-category-ngo {
+  background-color: #cc412e
+}
+
+.dataminr-category-ent, .dataminr-category-spo {
+  background-color: #8a64ad
+}
+
+.dataminr-category-bsn, .dataminr-category-uni {
+  background-color: #cc412e
+}
+
+.dataminr-category-alt {
+  background-color: #b26333
+}
+
+.dataminr-category-ctr {
+  background-color: #cc7332
+}
+
+.dataminr-label {
+  color: #e28409
+}
+
+.dataminr-label-momentum {
+  color: #5caee1
+}
+
+.dataminr-map-img {
+  border: 1px solid #ccd6dd
+}
+
+.dataminr-bio-count {
+  color: #657786
+}
+
+.dataminr-user-profile {
+  background-color: #fff
+}
+
+.info-caret {
+  border: 10px solid transparent;
+  border-right-color: #1da1f2
+}
+
+.info-popover-close {
+  color: #fff
+}
+
+.info-popover-close:active, .info-popover-close:hover {
+  color: #fff
+}
+
+.info-popover-list-item:before {
+  color: #71c9f8;
+}
+
+.info-popover-content {
+  border: 1px solid #fff;
+}
+
+.other-replies {
+  color: #8899a6
+}
+
+.other-replies-link, .other-replies-link:hover {
+  color: #1da1f2
+}
+
+.compose .other-replies, .inline-reply .other-replies {
+  color: #8899a6
+}
+
+.compose .other-replies-link, .compose .other-replies-link:hover, .inline-reply .other-replies-link, .inline-reply .other-replies-link:hover {
+  color: #1da1f2
+}
+
+.search-tip-item-hover:hover {
+  background: #eaf5fd;
+  color: #000
+}
+
+.InputGroup input {
+  color: #14171a;
+  background-color: #fff;
+  border-color: #e1e8ed
+}
+
+.InputGroup button {
+  background-color: #fff;
+}
+
+.InputGroup button:hover {
+  background-color: #eaf5fd
+}
+
+.InputGroup button:focus {
+  box-shadow: 0 0 0 2px #1da1f2
+}
+
+.is-inverted-dark .InputGroup input {
+  background-color: #fff;
+  border-color: #e1e8ed
+}
+
+.is-inverted-dark .InputGroup button {
+  background-color: transparent
+}
+
+.is-inverted-dark .InputGroup button:hover {
+  background-color: #eaf5fd
+}
+
+.overlay, .ovl {
+  background: rgba(56, 68, 77, .9);
+}
+
+.overlay-opaque {
+  background-color: #3d5466
+}
+
+.seamful .modal-content, .seamful .modal-feature-box {
+  background: #fff
+}
+
+.modal-content-with-border, .modal-feature-box {
+  border: 1px solid #ccd6dd
+}
+
+.mdl {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(20, 23, 26, .5)
+}
+
+.mdl-lighter-on-dark {
+  background-color: #fff!important
+}
+
+.seamful.mdl {
+  background-color: transparent
+}
+
+.mdl-header-divider {
+  border-bottom: 1px solid #ccd6dd
+}
+
+.mdl-accent {
+  background: #f5f8fa
+}
+
+.mdl-content {
+  border: 1px solid #ccd6dd;
+}
+
+.mdl-placeholder {
+  color: #8899a6;
+  text-shadow: 0 1px 0 hsla(0, 0%, 100%, .8)
+}
+
+.is-inverted-light .mdl-btn-media, .mdl-btn-media {
+  color: #fff;
+}
+
+.is-inverted-light .mdl-btn-media:active, .is-inverted-light .mdl-btn-media:hover, .mdl-btn-media:active, .mdl-btn-media:focus, .mdl-btn-media:hover {
+  color: #fff;
+}
+
+.mdl-media-next, .mdl-media-prev {
+  background: rgba(20, 23, 26, .3)
+}
+
+.mdl-column-med {
+  background: #f5f8fa;
+}
+
+.mdl-column-rhs {
+  border-left: 1px solid #ccd6dd;
+}
+
+.s-minimal .mdl-header {
+  border-bottom: 1px solid #ccd6dd
+}
+
+.s-minimal .mdl-content {
+  background: transparent
+}
+
+.lst-launcher .top-row {
+  border-bottom: 1px solid #ccd6dd;
+}
+
+.lst-launcher a {
+  color: transparent
+}
+
+.lst-launcher a span {
+  color: #657786
+}
+
+.lst-launcher .is-disabled a:active i, .lst-launcher .is-disabled a:focus i, .lst-launcher .is-disabled a:hover i, .lst-launcher .is-disabled a i {
+  color: #1da1f2!important
+}
+
+.lst-launcher .is-disabled a:active>span, .lst-launcher .is-disabled a:focus>span, .lst-launcher .is-disabled a:hover>span, .lst-launcher .is-disabled a>span {
+  color: #aab8c2!important
+}
+
+.lst-launcher a:active i, .lst-launcher a:focus i, .lst-launcher a:hover i {
+  color: #005fd1
+}
+
+.lst-launcher a:active>span, .lst-launcher a:focus>span, .lst-launcher a:hover>span {
+  color: #aab8c2
+}
+
+.lst-profile a, .lst-profile a:active, .lst-profile a:focus, .lst-profile a:hover {
+  border: 1px solid #ccd6dd;
+  color: #8899a6
+}
+
+.mdl-col-settings {
+  border-left: 1px solid #ccd6dd
+}
+
+.lst-profile.l-grouped {
+  border-top: 1px solid #ccd6dd
+}
+
+.mdl-links, .mdl-links a {
+  color: #8899a6
+}
+
+.mdl-report-spam-options {
+  background-color: transparent;
+}
+
+.char-count:disabled {
+  color: #657786;
+  background: transparent
+}
+
+.over-char-count:disabled {
+  color: #a01744
+}
+
+.s-link-added.s-photo-added p:last-child {
+  border-top: 1px solid #e1e8ed
+}
+
+.inline-reply {
+  background-color: #2b7bb9;
+  color: #fff;
+}
+
+.inline-reply .btn-neutral, .inline-reply .character-count {
+  color: #fff
+}
+
+.reply-triangle {
+  border: 7px solid transparent;
+  border-bottom-color: #2b7bb9;
+}
+
+.detail-view-inline {
+  background-color: #f5f8fa;
+  border-top: 1px solid #e1e8ed;
+  border-bottom: 1px solid #e1e8ed
+}
+
+.detail-view-inline-text {
+  border: 1px solid #e1e8ed;
+  background-color: #fff;
+  color: #8899a6;
+}
+
+.med-fullpanel {
+  background-color: #14171a
+}
+
+.med-link {
+  color: #1da1f2
+}
+
+.med-flaglink, .med-origlink {
+  color: #1da1f2;
+}
+
+.med-flaglink:hover, .med-origlink:hover {
+  color: #1da1f2;
+}
+
+.embed-modal .mdl-content {
+  background: #fff
+}
+
+.embed-loading-container {
+  border: 1px solid #ccd6dd;
+}
+
+.keyboard-shortcut-list-modal .mdl-content {
+  background: #fff;
+}
+
+.text-like-keyboard-key {
+  background-color: #e1e8ed;
+  color: #10171e;
+  border: 1px solid #e1e8ed;
+  box-shadow: 0 1px 2px #e1e8ed, inset 0 1px 2px #fff
+}
+
+.s-checked .checked {
+  color: #008951
+}
+
+.list-account:hover, .list-link:hover, .list-listaccount:hover, .list-listmember:hover, .list-subtitle:hover, .list-twitter-list:hover {
+  color: #14171a;
+  background: #fff
+}
+
+.list-account:hover:active, .list-account:hover:focus, .list-account:hover:hover, .list-link:hover:active, .list-link:hover:focus, .list-link:hover:hover, .list-listaccount:hover:active, .list-listaccount:hover:focus, .list-listaccount:hover:hover, .list-listmember:hover:active, .list-listmember:hover:focus, .list-listmember:hover:hover, .list-subtitle:hover:active, .list-subtitle:hover:focus, .list-subtitle:hover:hover, .list-twitter-list:hover:active, .list-twitter-list:hover:focus, .list-twitter-list:hover:hover {
+  color: #14171a;
+  background: #fff
+}
+
+.list-twitter-list .inner strong {
+  color: #38444d
+}
+
+.list-twitter-list .bytext, .list-twitter-list .txt-ellipsis {
+  color: #8899a6
+}
+
+.list-twitter-list .subtitle {
+  color: #8899a6
+}
+
+.list-subtitle span {
+  color: #8899a6
+}
+
+.list-account .username {
+  color: #8899a6;
+}
+
+.list-listmember .username {
+  color: #8899a6;
+}
+
+.list-listmember .bio {
+  color: #657786;
+}
+
+.divider-bar {
+  background-color: #ccd6dd
+}
+
+select {
+  background-color: #fff
+}
+
+input, select, textarea {
+  background: #fff;
+  border: 1px solid #e1e8ed;
+}
+
+input.light-on-dark, select.light-on-dark, textarea.light-on-dark {
+  color: #14171a;
+  background: #fff;
+  border-color: #e1e8ed
+}
+
+input:disabled {
+  background-color: #f5f8fa;
+  border-color: #e1e8ed;
+}
+
+select:disabled {
+  background-color: #f5f8fa;
+}
+
+.focus, input:focus, select:focus, textarea:focus {
+  border-color: rgba(29, 161, 242, .8);
+  box-shadow: inset 0 1px 3px rgba(20, 23, 26, .1), 0 0 8px rgba(29, 161, 242, .6)
+}
+
+input.on-blue:focus {
+  box-shadow: 0 0 2px 3px #1da1f2
+}
+
+.frm {
+  color: inherit
+}
+
+.with-emphasis {
+  border: 1px solid #8899a6
+}
+
+.with-emphasis:disabled {
+  border-color: #8899a6
+}
+
+::-webkit-input-placeholder, input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #8899a6
+}
+
+::-webkit-input-placeholder, ::placeholder, input::placeholder, textarea::placeholder {
+  color: #8899a6
+}
+
+::-webkit-validation-bubble-arrow, ::-webkit-validation-bubble-message {
+  border: 1px solid #f6809a;
+  background-color: #ffb8c2
+}
+
+.s-error input {
+  border-color: rgba(246, 128, 154, .8)
+}
+
+.s-error label {
+  color: #a01744
+}
+
+.s-error input:focus {
+  border-color: #f6809a;
+  box-shadow: 0 0 6px rgba(246, 128, 154, .5)
+}
+
+.search-input-clear-search, .search-input-perform-search, .search-input-spinner {
+  color: #aab8c2
+}
+
+.search-input-clear-search:hover, .search-input-perform-search:hover, .search-input-spinner:hover {
+  color: #aab8c2
+}
+
+.input-clear-control {
+  color: #aab8c2
+}
+
+.input-clear-control:hover {
+  color: #aab8c2
+}
+
+.toggle-item.is-selected {
+  color: #38444d;
+}
+
+.toggle-item {
+  color: #1da1f2;
+}
+
+.add-on {
+  color: #8899a6;
+  border: 1px solid #e1e8ed;
+}
+
+.add-on.with-emphasis {
+  border: 1px solid #8899a6
+}
+
+.input-prepend input {
+  border-left-color: #ccd6dd
+}
+
+#calbody {
+  background: #fff
+}
+
+#caldays {
+  border-bottom: 1px solid #e1e8ed
+}
+
+#caldays span {
+  color: #38444d;
+}
+
+#calweeks {
+  background-color: #fff;
+}
+
+.calweek a {
+  color: #444;
+}
+
+.calfocus, .calweek a:hover {
+  background-color: #ccd6dd
+}
+
+a.calsun {
+  color: red
+}
+
+a.caloff {
+  color: #ccd6dd
+}
+
+a.caloff:hover {
+  color: #fff;
+  background-color: #e1e8ed
+}
+
+a.caldisabled {
+  background-color: #f5f8fa!important;
+  color: #e1e8ed!important;
+}
+
+#calcurrent {
+  background-color: #1da1f2;
+  color: #38444d
+}
+
+#caltoday {
+  background-color: #e1e8ed;
+  color: #fff
+}
+
+.cal {
+  color: #38444d
+}
+
+.cal header {
+  border-bottom: 1px #e1e8ed;
+}
+
+.prf-header {
+  background: #38444d;
+  text-shadow: 0 1px 1px rgba(20, 23, 26, .8);
+  color: #fff
+}
+
+.prf-header .pretty-link, .prf-header .prf-bio a, .prf-header .prf-siteurl {
+  color: #fff
+}
+
+.prf-header .pretty-link:hover, .prf-header .prf-bio a:hover, .prf-header .prf-siteurl:hover {
+  color: #fff;
+  text-decoration: underline
+}
+
+.prf-header-inner-overlay {
+  background-image: linear-gradient(transparent, rgba(20, 23, 26, .55))
+}
+
+.prf .fullname, .prf .username {
+  color: #fff
+}
+
+.prf-meta {
+  border-top: 1px solid #e1e8ed;
+  background: #fff
+}
+
+.prf-stats li+li a {
+  border-left: 1px solid #e1e8ed
+}
+
+.prf-stats a {
+  color: #8899a6
+}
+
+.prf-stats a strong {
+  color: #38444d;
+}
+
+.prf-stats a:hover, .prf-stats a:hover strong {
+  color: #005fd1
+}
+
+.prf .lst-profile span {
+  color: #8899a6;
+}
+
+.prf .lst-profile i {
+  color: #8899a6;
+}
+
+.prf .lst-profile a {
+  border-right: 1px solid #fff
+}
+
+.prf .lst-profile a:hover span {
+  color: #3d5466
+}
+
+.prf .lst-profile a:hover i {
+  color: #3d5466
+}
+
+.detail-group {
+  border-bottom: #e1e8ed
+}
+
+.prf-follow-status {
+  background-color: rgba(20, 23, 26, .25);
+  color: #fff;
+}
+
+.profile-full-follow-status {
+  background-color: #e1e8ed;
+}
+
+.profile-full {
+  background-color: #fff;
+}
+
+.profile-icon {
+  color: #8899a6
+}
+
+.profile-full-avatar {
+  background-color: #fff
+}
+
+.profile-full-bio-count {
+  color: #38444d
+}
+
+.lst li {
+  border-bottom: 1px solid #e1e8ed
+}
+
+.lst-modal {
+  background: #fff;
+  border: 1px solid #e1e8ed
+}
+
+.lst .s-selected {
+  background-color: #1da1f2;
+  color: #fff
+}
+
+.lst .s-selected .fullname, .lst .s-selected .username {
+  color: #fff
+}
+
+.lst-group .selected {
+  background: #1da1f2;
+  color: #f5f8fa
+}
+
+.lst-group .selected a:hover {
+  background: #1da1f2
+}
+
+.lst-group .selected .fullname, .lst-group .selected .inner strong, .lst-group .selected .list-account, .lst-group .selected .list-link, .lst-group .selected .list-listmember, .lst-group .selected .list-subtitle, .lst-group .selected .list-twitter-list, .lst-group .selected .txt-ellipsis {
+  color: #f5f8fa;
+}
+
+.lst-group .selected .bytext, .lst-group .selected .icon-protected, .lst-group .selected .subtitle, .lst-group .selected .username {
+  color: #eef3f7;
+}
+
+.itm-remove {
+  border-top: 1px solid #e1e8ed;
+}
+
+.caret-outer {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid rgba(20, 23, 26, .1)
+}
+
+.caret-inner {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff
+}
+
+.bg-color-twitter-white .caret-outer {
+  border-bottom: 7px solid rgba(20, 23, 26, .1)
+}
+
+.bg-color-twitter-white .caret-inner {
+  border-bottom: 6px solid #fff
+}
+
+.drp-h-divider {
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  color: #38444d;
+  box-shadow: 0 1px 4px rgba(20, 23, 26, .35)
+}
+
+.dropdown-menu .release-notes-item, .dropdown-menu .typeahead-item, .dropdown-menu [data-action] {
+  color: #38444d;
+}
+
+.dropdown-menu .release-notes-item {
+  color: #38444d
+}
+
+.dropdown-menu .is-selected {
+  background: #1da1f2;
+  color: #fff
+}
+
+.dropdown-menu .is-selected .release-notes-item, .dropdown-menu .is-selected [data-action] {
+  color: #fff
+}
+
+.dropdown-menu .is-selected a:not(:hover):not(:focus) {
+  color: #fff
+}
+
+.dropdown-menu a:not(:hover):not(:focus) {
+  color: #38444d
+}
+
+.dropdown-menu-old li:hover {
+  background: #1da1f2
+}
+
+.dropdown-menu-old li:hover a {
+  color: #fff
+}
+
+.dropdown-menu-old li:hover .attribution {
+  color: #fff
+}
+
+.non-selectable-item {
+  color: #8899a6
+}
+
+.update-available-item:before {
+  background-color: #ffad1f;
+}
+
+.is-selected .update-available-item:before {
+  background-color: rgba(56, 68, 77, .2)
+}
+
+.popover {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(20, 23, 26, .7);
+}
+
+.release-notes-header-subtitle {
+  color: #8899a6;
+}
+
+.release-notes-image-bullet {
+  border: 1px solid #e1e8ed
+}
+
+.startflow-background:before {
+  background-color: #38444d;
+  background-image: linear-gradient(36deg, #005fd1, transparent)
+}
+
+.startflow-link {
+  color: #1da1f2;
+}
+
+.startflow-link:active, .startflow-link:focus, .startflow-link:hover {
+  color: #1da1f2;
+}
+
+.startflow-link-on-background {
+  color: #1da1f2
+}
+
+.app-info-title {
+  color: #fff;
+}
+
+.app-info-text p {
+  color: #ccd6dd;
+}
+
+.form-legend {
+  border-bottom: 1px solid #ccd6dd;
+  color: #14171a
+}
+
+.startflow-panel, .startflow-panel-rounded {
+  background-color: #fff;
+  color: #38444d;
+  border: 1px solid #38444d
+}
+
+.privacy-info {
+  color: #aab8c2
+}
+
+.privacy-info a, .privacy-info a:active, .privacy-info a:hover, .privacy-info a:visited {
+  color: #aab8c2
+}
+
+.form-message {
+  color: #fff;
+}
+
+.form-error-message {
+  background-color: #a01744
+}
+
+.form-success-message, .form-warning-message {
+  background-color: #008951
+}
+
+.startflow-msg-header {
+  background-color: #ccd6dd;
+}
+
+.startflow-msg-warning {
+  background-color: #ffad1f;
+}
+.compose {
+  background-color: #2b7bb9;
+  color: #fff;
+}
+
+.compose-header {
+  border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+}
+
+.compose-text-container {
+  background-color: #fff
+}
+
+.compose-text {
+  color: #14171a
+}
+
+.compose-text-title {
+  color: #71c9f8
+}
+
+.compose-send-button-success {
+  color: #fff;
+}
+
+.compose-reply-tweet {
+  background-color: #e1e8ed;
+  color: #38444d;
+}
+
+.compose-reply-tweet-remove {
+  color: #38444d
+}
+
+.compose-reply-tweet .tweet-body a {
+  color: #1da1f2
+}
+
+.compose-reply-tweet .fullname {
+  color: #38444d
+}
+
+.compose-reply-tweet .username {
+  color: #8899a6;
+}
+
+.replyto-caret {
+  border: 7px solid transparent;
+  border-bottom-color: #fff
+}
+
+.compose-message-account {
+  color: #14171a;
+}
+
+.compose-message-recipient {
+  border: 1px solid #e1e8ed
+}
+
+.compose-message-recipient-input-container.is-focused {
+  box-shadow: 0 0 2px 3px #1da1f2;
+}
+
+.compose-media-bar-holder {
+  background-color: #fff
+}
+
+.compose-media-info-bar-holder {
+  background-color: #fff;
+  color: #8899a6
+}
+
+.compose-media-info-bar {
+  background: #e1e8ed
+}
+
+.compose-account {
+  color: #fff
+}
+
+.is-list .compose-account {
+  background-color: transparent
+}
+
+.compose-account-img {
+  background-color: #1da1f2
+}
+
+.compose-account:hover {
+  color: #fff
+}
+
+.compose-account:focus {
+  color: #fff;
+}
+
+.compose-account:focus .compose-account-img {
+  box-shadow: 0 0 2px 3px #1da1f2;
+}
+
+.is-selected.compose-account:focus .compose-account-img {
+  box-shadow: 0 0 2px 3px #1da1f2;
+}
+
+.compose-account-selected {
+  background-color: #17bf63;
+}
+
+.compose-remember-state {
+  color: #fff
+}
+
+.video-container .video-controls {
+  background: rgba(0, 0, 0, .5);
+  background: linear-gradient(transparent, rgba(0, 0, 0, .65))
+}
+
+.new-composer-bottom-button {
+  background: #fff;
+  border: 2px solid transparent
+}
+
+.new-composer-bottom-button:hover {
+  background: #eaf5fd
+}
+
+.new-composer-bottom-button:hover:active, .new-composer-bottom-button:hover:focus {
+  background: #eaf5fd
+}
+
+.new-composer-bottom-button:active, .new-composer-bottom-button:focus {
+  background: #fff;
+  border: 2px solid #1da1f2
+}
+
+.old-composer-footer {
+  background-color: #2b7bb9
+}
+
+.old-composer-footer .new-composer-opt-in {
+  background-color: #2b7bb9;
+}
+
+.old-composer-footer .new-composer-opt-in:focus, .old-composer-footer .new-composer-opt-in:hover {
+  background-color: #1da1f2!important
+}
+
+.column-nav-link {
+  color: #aab8c2;
+}
+
+.column-nav-link:active, .column-nav-link:focus {
+  color: #aab8c2
+}
+
+.column-nav-link.is-selected, .column-nav-link:hover {
+  color: #fff
+}
+
+.column-nav-item {
+  color: #aab8c2;
+  background-color: #1c2938
+}
+
+.column-nav-link:after {
+  color: #8899a6
+}
+
+.column-nav-link .attribution {
+  color: #8899a6
+}
+
+.column-nav-link .column-heading {
+  color: #fff
+}
+
+.nav-user-info .username {
+  color: #8899a6;
+}
+
+.nav-user-info .fullname {
+  color: #fff;
+}
+
+.account-bio {
+  color: #8899a6
+}
+
+.DatePickerDropdown-menuItem--footer {
+  border-top: 1px solid #ccd6dd;
+  background-color: #f5f8fa;
+}
+
+.DatePicker-monthButton {
+  color: #1da1f2;
+}
+
+.DatePicker-monthButton:focus, .DatePicker-monthButton:hover {
+  color: #005fd1
+}
+
+.DatePicker-monthButton[disabled] {
+  color: #ccd6dd
+}
+
+.DatePicker-calendarDayHeader {
+  color: #657786
+}
+
+.DatePicker-calendarDay {
+  color: #ccd6dd
+}
+
+.DatePicker-calendarDay.is-selectable {
+  color: #14171a;
+}
+
+.DatePicker-calendarDay.is-selectable.is-adjacentMonth {
+  color: #657786
+}
+
+.DatePicker-calendarDay.is-selectable:hover {
+  background-color: #005fd1;
+  color: #fff
+}
+
+.DatePicker-calendarDay.is-withinRange {
+  background-color: #1da1f2;
+  color: #fff
+}
+
+.DatePicker-calendarDay.is-withinRange.is-adjacentMonth {
+  color: #ccd6dd
+}
+
+.DatePicker-calendarDay.is-rangeEnd, .DatePicker-calendarDay.is-rangeStart {
+  background-color: #005fd1;
+  color: #fff
+}
+
+.DatePicker-calendarDay.is-rangeEnd.is-adjacentMonth, .DatePicker-calendarDay.is-rangeStart.is-adjacentMonth {
+  color: #ccd6dd
+}
+
+.DatePicker--withPendingRange .DatePicker-calendarDay.is-rangeEnd, .DatePicker--withPendingRange .DatePicker-calendarDay.is-rangeStart, .DatePicker--withPendingRange .DatePicker-calendarDay.is-withinRange {
+  border: 1px solid #1da1f2;
+  background-color: #fff;
+  color: #14171a
+}
+
+.DatePicker--withPendingRange .DatePicker-calendarDay.is-rangeEnd.is-adjacentMonth, .DatePicker--withPendingRange .DatePicker-calendarDay.is-rangeStart.is-adjacentMonth, .DatePicker--withPendingRange .DatePicker-calendarDay.is-withinRange.is-adjacentMonth {
+  color: #657786
+}
+
+.DatePicker--withPendingRange .DatePicker-calendarDay.is-rangeEnd, .DatePicker--withPendingRange .DatePicker-calendarDay.is-rangeStart {
+  background-color: #eaf5fd
+}
+
+.DatePicker-time {
+  border-top: 1px solid #ccd6dd;
+}
+
+.DatePicker-timeZone {
+  color: #657786;
+}
+
+.Dropdown {
+  background-color: hsla(0, 0%, 100%, .98);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+}
+
+.Dropdown-detailPanel {
+  border: solid #ccd6dd;
+  background-color: #f5f8fa
+}
+
+.Dropdown-divider {
+  background-color: #ccd6dd
+}
+
+.Dropdown-menuGroupLabel, .Dropdown-menuItem .Dropdown-menuItemContent {
+  background: transparent;
+  color: #14171a;
+}
+
+.Dropdown-menuItem .Dropdown-menuItemContent .Icon--check {
+  color: #1da1f2
+}
+
+.Dropdown-menuItem.is-focus {
+  background-color: #1da1f2
+}
+
+.Dropdown-menuItem.is-focus .Dropdown-menuItemContent, .Dropdown-menuItem.is-focus input[type=radio]:checked+.Icon.Icon--check {
+  color: #fff
+}
+
+.Dropdown-menuItem.is-focus .User .Icon, .Dropdown-menuItem.is-focus .User .User-screenName {
+  color: #fff
+}
+
+.Dropdown-menuItem.is-focus .User .Icon--verified:before {
+  color: #1da1f2
+}
+
+.Dropdown-menuGroupLabel {
+  color: #657786
+}
+
+.ProgressBar {
+  background-color: #ccd6dd;
+  color: #1da1f2
+}
+
+.ProgressBar::-moz-progress-bar {
+  background-color: #ccd6dd
+}
+
+.ProgressBar::-webkit-progress-bar {
+  background-color: #ccd6dd
+}
+
+.ProgressBar.ProgressBar:indeterminate {
+  border-top: 1.5px solid #ccd6dd;
+  border-bottom: 1.5px solid #ccd6dd
+}
+
+.ProgressBar::-moz-progress-bar {
+  background-color: #1da1f2
+}
+
+.ProgressBar::-webkit-progress-value {
+  background-color: #1da1f2
+}
+
+.ProgressBar--red {
+  color: #e0245e
+}
+
+.ProgressBar--red::-moz-progress-bar {
+  background-color: #e0245e
+}
+
+.ProgressBar--red::-webkit-progress-value {
+  background-color: #e0245e
+}
+
+.ProgressBar--yellow {
+  color: #ffad1f
+}
+
+.ProgressBar--yellow::-moz-progress-bar {
+  background-color: #ffad1f
+}
+
+.ProgressBar--yellow::-webkit-progress-value {
+  background-color: #ffad1f
+}
+
+.ProgressBar--green {
+  color: #17bf63
+}
+
+.ProgressBar--green::-moz-progress-bar {
+  background-color: #17bf63
+}
+
+.ProgressBar--green::-webkit-progress-value {
+  background-color: #17bf63
+}
+
+.ProgressBar--blue {
+  color: #1da1f2
+}
+
+.ProgressBar--blue::-moz-progress-bar {
+  background-color: #1da1f2
+}
+
+.ProgressBar--blue::-webkit-progress-value {
+  background-color: #1da1f2
+}
+
+.ProgressBar--white {
+  background-color: #657786;
+  color: #fff
+}
+
+.ProgressBar--white::-moz-progress-bar {
+  background-color: #657786
+}
+
+.ProgressBar--white::-webkit-progress-bar {
+  background-color: #657786
+}
+
+.ProgressBar--white::-moz-progress-bar {
+  background-color: #fff
+}
+
+.ProgressBar--white::-webkit-progress-value {
+  background-color: #fff
+}
+
+.ProgressBar--large.ProgressBar:indeterminate {
+  border-top: 4.5px solid #ccd6dd;
+  border-bottom: 4.5px solid #ccd6dd
+}
+
+.Notification-inner {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1)
+}
+
+.Notification-icon {
+  background-color: #1da1f2;
+  color: #fff
+}
+
+.Notification-content {
+  border: 1px solid #ccd6dd;
+  background-color: #fff
+}
+
+.Notification-title+.Notification-body {
+  color: #657786
+}
+
+.Notification-closeButton {
+  color: #aab8c2;
+}
+
+.Notification-closeButton:focus, .Notification-closeButton:hover {
+  color: #657786
+}
+
+.Notification--green .Notification-icon {
+  background-color: #17bf63
+}
+
+.Notification--red .Notification-icon {
+  background-color: #e0245e
+}
+
+.ModalOverlay {
+  background-color: rgba(20, 23, 26, .8);
+}
+
+.Drawer {
+  background-color: #fff
+}
+
+.Drawer:not([dir=rtl]) {
+  border-left: 1px solid #ccd6dd
+}
+
+.Drawer[dir=rtl] {
+  border-right: 1px solid #ccd6dd
+}
+
+.Drawer--modal {
+  background-color: #fff;
+}
+
+.Drawer-close {
+  color: #aab8c2;
+}
+
+.Drawer-close:hover {
+  color: #657786
+}
+
+.Tooltip {
+  background: #fff;
+  border: 1px solid #ccd6dd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.Tooltip .Tooltip-content {
+  color: #14171a
+}
+
+.Tooltip .Tooltip-close {
+  color: #aab8c2
+}
+
+.Tooltip .Tooltip-triangleOuter {
+  border-color: transparent #ccd6dd transparent transparent
+}
+
+.Tooltip .Tooltip-triangleInner {
+  border-color: transparent #fff transparent transparent
+}
+
+.Tooltip.Tooltip--bottomLeft .Tooltip-triangleOuter, .Tooltip.Tooltip--left .Tooltip-triangleOuter, .Tooltip.Tooltip--topLeft .Tooltip-triangleOuter {
+  border-color: transparent transparent transparent #ccd6dd
+}
+
+.Tooltip.Tooltip--bottomLeft .Tooltip-triangleInner, .Tooltip.Tooltip--left .Tooltip-triangleInner, .Tooltip.Tooltip--topLeft .Tooltip-triangleInner {
+  border-color: transparent transparent transparent #fff
+}
+
+.Tooltip.Tooltip--top .Tooltip-triangleOuter, .Tooltip.Tooltip--topLeft .Tooltip-triangleOuter {
+  border-color: #ccd6dd transparent transparent
+}
+
+.Tooltip.Tooltip--top .Tooltip-triangleInner, .Tooltip.Tooltip--topLeft .Tooltip-triangleInner {
+  border-color: #fff transparent transparent
+}
+
+.Tooltip.Tooltip--bottom .Tooltip-triangleOuter, .Tooltip.Tooltip--bottomLeft .Tooltip-triangleOuter {
+  border-color: transparent transparent #ccd6dd
+}
+
+.Tooltip.Tooltip--bottom .Tooltip-triangleInner, .Tooltip.Tooltip--bottomLeft .Tooltip-triangleInner {
+  border-color: transparent transparent #fff
+}
+
+.Tooltip--dark {
+  background: #14171a;
+  border-color: #14171a;
+}
+
+.Tooltip--dark .Tooltip-close, .Tooltip--dark .Tooltip-content {
+  color: #fff
+}
+
+.Tooltip--dark .Tooltip-triangleInner, .Tooltip--dark .Tooltip-triangleOuter {
+  border-color: transparent #14171a transparent transparent
+}
+
+.Tooltip--dark.Tooltip--bottomLeft .Tooltip-triangleInner, .Tooltip--dark.Tooltip--bottomLeft .Tooltip-triangleOuter, .Tooltip--dark.Tooltip--left .Tooltip-triangleInner, .Tooltip--dark.Tooltip--left .Tooltip-triangleOuter, .Tooltip--dark.Tooltip--topLeft .Tooltip-triangleInner, .Tooltip--dark.Tooltip--topLeft .Tooltip-triangleOuter {
+  border-color: transparent transparent transparent #14171a
+}
+
+.Tooltip--dark.Tooltip--top .Tooltip-triangleInner, .Tooltip--dark.Tooltip--top .Tooltip-triangleOuter, .Tooltip--dark.Tooltip--topLeft .Tooltip-triangleInner, .Tooltip--dark.Tooltip--topLeft .Tooltip-triangleOuter {
+  border-color: #14171a transparent transparent
+}
+
+.Tooltip--dark.Tooltip--bottom .Tooltip-triangleInner, .Tooltip--dark.Tooltip--bottom .Tooltip-triangleOuter, .Tooltip--dark.Tooltip--bottomLeft .Tooltip-triangleInner, .Tooltip--dark.Tooltip--bottomLeft .Tooltip-triangleOuter {
+  border-color: transparent transparent #14171a
+}
+
+.Tooltip--intro {
+  background: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.Tooltip--intro .Tooltip-close, .Tooltip--intro .Tooltip-content {
+  color: #fff
+}
+
+.Tooltip--intro .Tooltip-triangleInner, .Tooltip--intro .Tooltip-triangleOuter {
+  border-color: transparent #1da1f2 transparent transparent
+}
+
+.Tooltip--intro.Tooltip--bottomLeft .Tooltip-triangleInner, .Tooltip--intro.Tooltip--bottomLeft .Tooltip-triangleOuter, .Tooltip--intro.Tooltip--left .Tooltip-triangleInner, .Tooltip--intro.Tooltip--left .Tooltip-triangleOuter, .Tooltip--intro.Tooltip--topLeft .Tooltip-triangleInner, .Tooltip--intro.Tooltip--topLeft .Tooltip-triangleOuter {
+  border-color: transparent transparent transparent #1da1f2
+}
+
+.Tooltip--intro.Tooltip--top .Tooltip-triangleInner, .Tooltip--intro.Tooltip--top .Tooltip-triangleOuter, .Tooltip--intro.Tooltip--topLeft .Tooltip-triangleInner, .Tooltip--intro.Tooltip--topLeft .Tooltip-triangleOuter {
+  border-color: #1da1f2 transparent transparent
+}
+
+.Tooltip--intro.Tooltip--bottom .Tooltip-triangleInner, .Tooltip--intro.Tooltip--bottom .Tooltip-triangleOuter, .Tooltip--intro.Tooltip--bottomLeft .Tooltip-triangleInner, .Tooltip--intro.Tooltip--bottomLeft .Tooltip-triangleOuter {
+  border-color: transparent transparent #1da1f2
+}
+
+.Tooltip-close:hover {
+  color: #657786
+}
+
+.TooltipHoverTarget {
+  background-image: linear-gradient(90deg, #1da1f2 50%, transparent 0);
+}
+
+.LegendItem--gray .LegendItem-color, .LegendItem-color {
+  background-color: #aab8c2
+}
+
+.LegendItem--blue .LegendItem-color {
+  background-color: #1da1f2
+}
+
+.LegendItem--green .LegendItem-color {
+  background-color: #17bf63
+}
+
+.LegendItem--yellow .LegendItem-color {
+  background-color: #ffad1f
+}
+
+.LegendItem--red .LegendItem-color {
+  background-color: #e0245e
+}
+
+.LegendItem--purple .LegendItem-color {
+  background-color: #794bc4
+}
+
+.DateRangeDropdown-menuItem--footer {
+  border-top: 1px solid #ccd6dd;
+  background-color: #f5f8fa;
+}
+
+.DateRange:not([dir=rtl]) .DateRange-presets {
+  border-right: 1px solid #ccd6dd
+}
+
+.DateRange:not([dir=rtl]) .DateRange-pickersRow:first-child .DateRange-pickerWrapper:last-child {
+  border-left: 1px solid #ccd6dd
+}
+
+.DateRange[dir=rtl] .DateRange-presets {
+  border-left: 1px solid #ccd6dd
+}
+
+.DateRange[dir=rtl] .DateRange-pickersRow:first-child .DateRange-pickerWrapper:last-child {
+  border-right: 1px solid #ccd6dd
+}
+
+.DateRange--withAdjacentMonths:not([dir=rtl]) .DateRange-pickersRow:first-child .DateRange-pickerWrapper:last-child {
+  border-left-color: transparent
+}
+
+.DateRange--withAdjacentMonths[dir=rtl] .DateRange-pickersRow:first-child .DateRange-pickerWrapper:last-child {
+  border-right-color: transparent
+}
+
+.PillGroup .Pill.is-selected {
+  background: #005fd1
+}
+
+.PillGroup .Pill>a, .PillGroup .Pill>button {
+  color: #1b95e0;
+}
+
+.PillGroup .Pill>a:hover, .PillGroup .Pill>button:hover {
+  background: #eaf5fd;
+}
+
+.PillGroup .Pill>a:focus, .PillGroup .Pill>button:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8;
+}
+
+.PillGroup .Pill>a:active, .PillGroup .Pill>button:active {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1da1f2
+}
+
+.PillGroup .Pill.is-selected>a, .PillGroup .Pill.is-selected>button {
+  color: #fff
+}
+
+.PillGroup .Pill.is-selected>a:hover, .PillGroup .Pill.is-selected>button:hover {
+  background: transparent
+}
+
+.FormInput, .FormTextarea {
+  box-shadow: inset 0 0 0 1px transparent;
+  border: 1px solid #ccd6dd;
+  color: #14171a;
+}
+
+.FormInput-characterCount {
+  color: #ccd6dd;
+}
+
+.FormInput-characterCount.is-negative {
+  color: #e0245e
+}
+
+.FormInput::-webkit-input-placeholder, .FormTextarea::-webkit-input-placeholder {
+  color: #aab8c2;
+}
+
+.FormInput::-moz-placeholder, .FormTextarea::-moz-placeholder {
+  color: #aab8c2;
+}
+
+.FormInput:-ms-input-placeholder, .FormTextarea:-ms-input-placeholder {
+  color: #aab8c2
+}
+
+.FormInput.is-error, .FormInput.is-invalid, .FormInputWrapper.is-error .FormInput, .FormInputWrapper.is-invalid .FormInput, .FormTextarea.is-error, .FormTextarea.is-invalid {
+  border-color: #e0245e
+}
+
+.FormInput.is-error.is-focus, .FormInput.is-error:focus, .FormInput.is-invalid.is-focus, .FormInput.is-invalid:focus, .FormInputWrapper.is-error .FormInput.is-focus, .FormInputWrapper.is-error .FormInput:focus, .FormInputWrapper.is-invalid .FormInput.is-focus, .FormInputWrapper.is-invalid .FormInput:focus, .FormTextarea.is-error.is-focus, .FormTextarea.is-error:focus, .FormTextarea.is-invalid.is-focus, .FormTextarea.is-invalid:focus {
+  border-color: #e0245e;
+  box-shadow: inset 0 0 0 1px #e0245e
+}
+
+.FormInput.is-success, .FormInput.is-valid, .FormInputWrapper.is-success .FormInput, .FormInputWrapper.valid .FormInput, .FormTextarea.is-success, .FormTextarea.is-valid {
+  border-color: #17bf63
+}
+
+.FormInput.is-success.is-focus, .FormInput.is-success:focus, .FormInput.is-valid.is-focus, .FormInput.is-valid:focus, .FormInputWrapper.is-success .FormInput.is-focus, .FormInputWrapper.is-success .FormInput:focus, .FormInputWrapper.valid .FormInput.is-focus, .FormInputWrapper.valid .FormInput:focus, .FormTextarea.is-success.is-focus, .FormTextarea.is-success:focus, .FormTextarea.is-valid.is-focus, .FormTextarea.is-valid:focus {
+  border-color: #17bf63;
+  box-shadow: inset 0 0 0 1px #17bf63
+}
+
+.FormInput.is-disabled, .FormInput[disabled], .FormInputWrapper.is-disabled .FormInput, .FormTextarea.is-disabled, .FormTextarea[disabled], fieldset[disabled] .FormInput, fieldset[disabled] .FormTextarea {
+  background: #f5f8fa;
+  color: #657786
+}
+
+.FormInput.is-focus, .FormInput:focus, .FormInputWrapper.is-focus .FormInput, .FormTextarea.is-focus, .FormTextarea:focus {
+  border-color: #1da1f2;
+  box-shadow: inset 0 0 0 1px #1da1f2;
+}
+
+.FormOption.is-disabled {
+  color: #aab8c2
+}
+
+.FormInputWrapper-absoluteEndAdornment .Icon, .FormInputWrapper-absoluteStartAdornment .Icon {
+  color: #aab8c2
+}
+
+.FormInputWrapper-absoluteEndAdornment .Icon--caretDown, .FormInputWrapper-absoluteStartAdornment .Icon--caretDown {
+  color: #14171a
+}
+
+.FormInputWrapper.is-disabled .FormInputWrapper-absoluteEndAdornment .Icon--caretDown, .FormInputWrapper.is-disabled .FormInputWrapper-absoluteStartAdornment .Icon--caretDown, fieldset[disabled] .FormInputWrapper-absoluteEndAdornment .Icon--caretDown, fieldset[disabled] .FormInputWrapper-absoluteStartAdornment .Icon--caretDown {
+  color: #657786
+}
+
+.FormInputWrapper-endAdornment, .FormInputWrapper-startAdornment {
+  border: 1px solid #ccd6dd;
+}
+
+.FormField.is-error .FormField-validationMessage, .FormField.is-invalid .FormField-validationMessage {
+  color: #e0245e
+}
+
+.FormField.is-success .FormField-validationMessage, .FormField.is-valid .FormField-validationMessage {
+  color: #008951
+}
+
+.FormField-description {
+  color: #657786
+}
+
+.Token, .Token--blue {
+  background-color: #fff;
+  border-color: #1da1f2;
+  color: #1da1f2
+}
+
+.Token--blue .Token-adornment, .Token .Token-adornment {
+  background-color: #1da1f2;
+  color: #fff
+}
+
+.Token--blue:hover, .Token:hover {
+  background-color: #97e3ff;
+  color: #005fd1
+}
+
+.Token--blue.is-selected, .Token.is-selected {
+  background-color: #1da1f2;
+  color: #fff;
+  position: relative
+}
+
+.Token--blue.is-selected .Token-adornment, .Token.is-selected .Token-adornment {
+  background-color: #fff;
+  color: #1da1f2
+}
+
+.Token--blue.is-selected:hover, .Token.is-selected:hover {
+  background-color: #005fd1;
+  border-color: #005fd1
+}
+
+.Token--blue.is-focused, .Token--blue .Token-checkbox input[type=checkbox]:focus+.Icon, .Token--blue .Token-trigger:focus .Icon, .Token--blue:focus, .Token.is-focused, .Token .Token-checkbox input[type=checkbox]:focus+.Icon, .Token .Token-trigger:focus .Icon, .Token:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #71c9f8
+}
+
+.Token--green {
+  background-color: #fff;
+  border-color: #17bf63;
+  color: #17bf63
+}
+
+.Token--green .Token-adornment {
+  background-color: #17bf63;
+  color: #fff
+}
+
+.Token--green:hover {
+  background-color: #a5f2aa;
+  color: #008951
+}
+
+.Token--green.is-selected {
+  background-color: #17bf63;
+  color: #fff;
+  position: relative
+}
+
+.Token--green.is-selected .Token-adornment {
+  background-color: #fff;
+  color: #17bf63
+}
+
+.Token--green.is-selected:hover {
+  background-color: #008951;
+  border-color: #008951
+}
+
+.Token--green.is-focused, .Token--green .Token-checkbox input[type=checkbox]:focus+.Icon, .Token--green .Token-trigger:focus .Icon, .Token--green:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #68e090
+}
+
+.Token--red {
+  background-color: #fff;
+  border-color: #e0245e;
+  color: #e0245e
+}
+
+.Token--red .Token-adornment {
+  background-color: #e0245e;
+  color: #fff
+}
+
+.Token--red:hover {
+  background-color: #ffb8c2;
+  color: #a01744
+}
+
+.Token--red.is-selected {
+  background-color: #e0245e;
+  color: #fff;
+}
+
+.Token--red.is-selected .Token-adornment {
+  background-color: #fff;
+  color: #e0245e
+}
+
+.Token--red.is-selected:hover {
+  background-color: #a01744;
+  border-color: #a01744
+}
+
+.Token--red.is-focused, .Token--red .Token-checkbox input[type=checkbox]:focus+.Icon, .Token--red .Token-trigger:focus .Icon, .Token--red:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f6809a
+}
+
+.Token--purple {
+  background-color: #fff;
+  border-color: #794bc4;
+  color: #794bc4
+}
+
+.Token--purple .Token-adornment {
+  background-color: #794bc4;
+  color: #fff
+}
+
+.Token--purple:hover {
+  background-color: #c7b4fa;
+  color: #4f0299
+}
+
+.Token--purple.is-selected {
+  background-color: #794bc4;
+  color: #fff;
+}
+
+.Token--purple.is-selected .Token-adornment {
+  background-color: #fff;
+  color: #794bc4
+}
+
+.Token--purple.is-selected:hover {
+  background-color: #4f0299;
+  border-color: #4f0299
+}
+
+.Token--purple.is-focused, .Token--purple .Token-checkbox input[type=checkbox]:focus+.Icon, .Token--purple .Token-trigger:focus .Icon, .Token--purple:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #a37ced
+}
+
+.Token--yellow {
+  background-color: #fff;
+  border-color: #ffad1f;
+  color: #ffad1f
+}
+
+.Token--yellow .Token-adornment {
+  background-color: #ffad1f;
+  color: #fff
+}
+
+.Token--yellow:hover {
+  background-color: #ffe76e;
+  color: #f98e00
+}
+
+.Token--yellow.is-selected {
+  background-color: #ffad1f;
+  color: #fff;
+}
+
+.Token--yellow.is-selected .Token-adornment {
+  background-color: #fff;
+  color: #ffad1f
+}
+
+.Token--yellow.is-selected:hover {
+  background-color: #f98e00;
+  border-color: #f98e00
+}
+
+.Token--yellow.is-focused, .Token--yellow .Token-checkbox input[type=checkbox]:focus+.Icon, .Token--yellow .Token-trigger:focus .Icon, .Token--yellow:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ffd03f
+}
+
+.Token--gray {
+  background-color: #fff;
+  border-color: #657786;
+  color: #657786
+}
+
+.Token--gray .Token-adornment {
+  background-color: #657786;
+  color: #fff
+}
+
+.Token--gray:hover {
+  background-color: #e6ecf0;
+  color: #657786
+}
+
+.Token--gray.is-selected {
+  background-color: #657786;
+  color: #fff;
+}
+
+.Token--gray.is-selected .Token-adornment {
+  background-color: #fff;
+  color: #657786
+}
+
+.Token--gray.is-selected:hover {
+  background-color: #aab8c2;
+  border-color: #aab8c2
+}
+
+.Token--gray.is-focused, .Token--gray .Token-checkbox input[type=checkbox]:focus+.Icon, .Token--gray .Token-trigger:focus .Icon, .Token--gray:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #aab8c2
+}
+
+.FormTokenInput-input {
+  background: transparent;
+}
+
+.FormTokenInput-input::-webkit-input-placeholder {
+  color: #aab8c2;
+}
+
+.FormTokenInput-input::-moz-placeholder {
+  color: #aab8c2;
+}
+
+.FormTokenInput-input:-ms-input-placeholder {
+  color: #aab8c2
+}
+
+.DataPoint .DataPoint-label {
+  color: #657786;
+}
+
+.DataPoint .DataPoint-info {
+  color: #14171a;
+}
+
+.DataPoint .DataPoint-trend--negative {
+  color: #e0245e
+}
+
+.DataPoint .DataPoint-trend--positive {
+  color: #17bf63
+}
+
+.DataPoint--withBottomBorder {
+  border-bottom: 1px solid #ccd6dd;
+}
+
+.FormTokenInput.FormTextarea ::-webkit-input-placeholder {
+  color: #8899a6
+}
+
+.FormTokenInput.FormTextarea :-ms-input-placeholder {
+  color: #8899a6
+}
+
+.FormTokenInput.FormTextarea ::-ms-input-placeholder {
+  color: #8899a6
+}
+
+.FormTokenInput.FormTextarea ::placeholder {
+  color: #8899a6
+}
+
+.DatePicker.date-unselected .is-rangeEnd, .DatePicker.date-unselected .is-rangeStart {
+  background-color: transparent;
+  color: #14171a
+}
+
+.DatePicker.date-unselected .is-rangeEnd:hover, .DatePicker.date-unselected .is-rangeStart:hover {
+  background-color: #005091;
+  color: #fff
+}
+
+.NotificationList button {
+  background: transparent;
+}
+
+.DrawerModal, .NotificationList .Notification-body {
+  color: #14171a
+}
+
+.DrawerModal button.Drawer-close {
+  background: transparent;
+}
+
+.DrawerModal .Panel-title {
+  border-bottom: 2px solid #ccd6dd
+}
+
+.DrawerModal .Panel-footer {
+  background-color: #f5f8fa;
+  border-top: 1px solid #ccd6dd
+}
