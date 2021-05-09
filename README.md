@@ -1,0 +1,2 @@
+# MarinDeckThemeKit
+MarinDeckのテーマ作成を支援するファイル群
