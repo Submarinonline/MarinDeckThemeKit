@@ -1,0 +1,391 @@
+:root {
+  --cv-back: #000;
+  --cv-back-mute: #15181c;
+  --cv-border: #2f3336;
+  --cv-text: #d9d9d9;
+  --cv-text-mute: #6e767d;
+  --cv-primal: #1da1f2;
+  --cv-highlight: #051D2B;
+  --cv-highlight-a: #1da1f224;
+
+  //prf.js by taiy
+  --prf-c: var(--cv-text);
+  --prf-c-mute: var(--cv-text-mute);
+  --prf-bg: var(--cv-back);
+  --prf-c-border: var(--cv-border);
+  --prf-dark-c: var(--cv-text);
+  --prf-dark-c-mute: var(--cv-text-mute);
+  --prf-dark-bg: var(--cv-back);
+  --prf-dark-c-border: var(--cv-border);
+
+  //compose.js by taiy
+  --compose-c:  var(--cv-text);
+  --compose-bg: var(--cv-back);
+  --compose-c-close:  var(--cv-text);
+  --compose-bg-close: var(--cv-back);
+  --compose-dark-c:  var(--cv-text);
+  --compose-dark-bg: var(--cv-back);
+  --compose-dark-c-close:  var(--cv-text);
+  --compose-dark-bg-close: var(--cv-back);
+}
+
+@for $var from 1 through 2 {
+  $end: "";
+
+  @if $var==2 {
+    $end: ".dark";
+  }
+
+  ;
+
+  html#{$end} {
+    color: var(--cv-text);
+
+    //全体
+    .account-link,
+    .other-replies,
+    .compose .other-replies,
+    .inline-reply .other-replies,
+    .accordion-header,
+    .accordion-header:hover,
+    .accordion .is-active .accordion-header,
+    .accordion .is-active .accordion-header:hover,
+    .column-title-container,
+    .column-title-back,
+    .dropdown-menu a:not(:hover):not(:focus),
+    .compose-reply-tweet .fullname,
+    .tweet-stat,
+    .accordion,
+    .accordion-popover,
+    .accordion .is-active,
+    .dropdown-menu .release-notes-item,
+    .dropdown-menu .typeahead-item,
+    .dropdown-menu [data-action],
+    .lst-launcher a span,
+    .list-twitter-list .bytext,
+    .list-twitter-list .txt-ellipsis,
+    .list-twitter-list .inner strong,
+    .lst-group .selected .fullname,
+    .lst-group .selected .inner strong,
+    .lst-group .selected .list-account,
+    .lst-group .selected .list-link,
+    .lst-group .selected .list-listmember,
+    .lst-group .selected .list-subtitle,
+    .lst-group .selected .list-twitter-list,
+    .lst-group .selected .txt-ellipsis,
+    .prf-stats a,
+    .prf-stats a strong,
+    .prf .lst-profile i,
+    .prf .lst-profile span,
+    .lst-profile a,
+    .lst-profile a:active,
+    .lst-profile a:focus,
+    .lst-profile a:hover {
+      color: var(--cv-text)
+    }
+
+    button.btn-options-tray,
+    input[type=button].btn-options-tray {
+      color: var(--cv-text) !important
+    }
+
+    ::-webkit-input-placeholder,
+    ::placeholder,
+    input::placeholder,
+    textarea::placeholder,
+    .txt-mute,
+    .txt-mute a:not(:hover):not(:focus),
+    .column-header .column-type-icon,
+    .search-input-clear-search,
+    .search-input-perform-search,
+    .search-input-spinner,
+    .dm-action,
+    .tweet-action,
+    .tweet-detail-action,
+    .stat-word,
+    .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
+    .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action,
+    .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action,
+    .compose-reply-tweet-remove,
+    .compose-text-title,
+    .compose-reply-tweet .username,
+    .color-twitter-gray,
+    .color-twitter-darker-gray,
+    .list-listmember .username,
+    .list-listmember .bio,
+    .list-twitter-list .subtitle,
+    .padding-axl p {
+      color: var(--cv-text-mute)
+    }
+
+    .lst-launcher .is-disabled a:active>span,
+    .lst-launcher .is-disabled a:focus>span,
+    .lst-launcher .is-disabled a:hover>span,
+    .lst-launcher .is-disabled a>span {
+      color: var(--cv-text-mute) !important
+    }
+
+    .app-columns-container,
+    .app-content,
+    .column,
+    .column-panel,
+    .column-message,
+    .column-scroller,
+    .column-options .button-tray,
+    .mdl,
+    .mdl-column-med,
+    .account-settings-row {
+      background-color: var(--cv-back)
+    }
+
+    .accounts-drawer {
+      background-color: var(--cv-back) !important
+    }
+
+    .facet-type.is-active,
+    .compose-text-container,
+    .thread,
+    .manage-team-summary {
+      background-color: var(--cv-back-mute)
+    }
+
+    .compose-message-recipient-input-container {
+      background-color: var(--cv-back-mute) !important
+    }
+
+    .with-column-divider-bottom,
+    .facet-type,
+    .mdl-header-divider,
+    .border-divider,
+    .compose-header,
+    .drp-h-divider,
+    .tweet-detail-actions,
+    .tweet-stats,
+    .mdl-content,
+    .drawer-header,
+    .account-settings-bb,
+    .contributor-manager .link-complex,
+    .scroll-styled-h::-webkit-scrollbar-track,
+    .scroll-styled-v::-webkit-scrollbar-track,
+    .s-minimal .mdl-header,
+    .mdl-column-rhs,
+    .prf-stats li+li a,
+    .prf .lst-profile a,
+    .lst li {
+      border-color: var(--cv-border)
+    }
+
+    .btn-on-blue {
+      background-color: var(--cv-primal);
+    }
+
+    button.btn-bg-positive,
+    input[type=button].btn-bg-positive,
+    .compose .antiscroll-scrollbar,
+    .lst-group .selected,
+    .lst-group .selected a:hover {
+      background-color: var(--cv-highlight)
+    }
+
+    .Button,
+    .Button.is-visited,
+    .Button:visited,
+    button,
+    button.is-visited,
+    button:visited,
+    input.is-visited[type=button],
+    input:visited[type=button],
+    input[type=button],
+    .Button.is-disabled,
+    .Button[disabled],
+    .follow-btn.is-disabled button,
+    button.is-disabled,
+    button.is-disabled:focus,
+    button[disabled],
+    fieldset[disabled] .Button,
+    fieldset[disabled] button,
+    fieldset[disabled] input[type=button],
+    input.is-disabled[type=button],
+    input.is-disabled[type=button]:focus,
+    input[disabled][type=button],
+    button.btn-on-dark.is-selected,
+    button.btn-on-dark:active,
+    button.btn-on-dark:focus,
+    button.btn-on-dark:hover,
+    input[type=button].btn-on-dark.is-selected,
+    input[type=button].btn-on-dark:active,
+    input[type=button].btn-on-dark:focus,
+    input[type=button].btn-on-dark:hover {
+      background-color: transparent
+    }
+
+    .column-header,
+    .column-header-temp {
+      color: var(--cv-text);
+      background-color: var(--cv-back)
+    }
+
+    .column-options {
+      color: var(--cv-text);
+      background-color: var(--cv-back)
+    }
+
+    .search-results-container .stream-item,
+    .stream-item {
+      color: var(--cv-text);
+      background-color: var(--cv-back);
+      border-color: var(--cv-border)
+    }
+
+    .inline-reply,
+    .scroll-styled-h::-webkit-scrollbar-thumb,
+    .scroll-styled-v::-webkit-scrollbar-thumb,
+    .divider-bar,
+    .account-row-separator-b:after {
+      background-color: var(--cv-border)
+    }
+
+    .quoted-tweet {
+      color: var(--cv-text);
+      border-color: var(--cv-border)
+    }
+
+    .caret-inner,
+    .replyto-caret {
+      border-bottom-color: var(--cv-back-mute)
+    }
+
+    .reply-triangle {
+      border-bottom-color: var(--cv-border)
+    }
+
+    input,
+    select,
+    textarea {
+      color: var(--cv-text);
+      background-color: var(--cv-back);
+      border-color: var(--cv-border)
+    }
+
+    .detail-view-inline,
+    .detail-view-inline-text {
+      color: var(--cv-text-mute);
+      background-color: var(--cv-back-mute);
+      border-color: var(--cv-border)
+    }
+
+    .social-proof-for-tweet-title {
+      color: var(--cv-text-mute);
+      background-color: var(--cv-back-mute);
+      border-color: var(--cv-border)
+    }
+
+    .column-title-edit-box {
+      color: var(--cv-text);
+      background-color: var(--cv-back-mute);
+      border-color: var(--cv-back-mute)
+    }
+
+    .scheduled-tweet {
+      color: var(--cv-text);
+      border-color: var(--cv-back-mute)
+    }
+
+    .mdl-accent {
+      background-color: var(--cv-back);
+      border-color: var(--cv-border)
+    }
+
+    .compose {
+      color: var(--cv-text);
+      background-color: var(--cv-back)
+    }
+
+    .compose-text {
+      color: var(--cv-text);
+      background-color: var(--cv-back-mute) !important
+    }
+
+    .compose-reply-tweet {
+      color: var(--cv-text);
+      background-color: var(--cv-highlight)
+    }
+
+    input.light-on-dark,
+    select.light-on-dark,
+    textarea.light-on-dark {
+      color: var(--cv-text);
+      background-color: var(--cv-back-mute)
+    }
+
+    .dropdown-menu {
+      background-color: var(--cv-back-mute)
+    }
+
+    .mdl-dismiss>i {
+      background-color: var(--cv-border) !important
+    }
+
+    .list-placeholder {
+      color: var(--cv-text);
+      text-shadow: none;
+    }
+
+    .Button.Button--tertiary,
+    .Button.Button--tertiary:visited,
+    .ButtonGroup--tertiary>.Button,
+    .ButtonGroup--tertiary>.Button:visited,
+    .ButtonGroup--tertiary>.ButtonGroup>.Button,
+    .ButtonGroup--tertiary>.ButtonGroup>.Button:visited,
+    .ButtonGroup--tertiary>.ButtonGroup>button,
+    .ButtonGroup--tertiary>.ButtonGroup>button:visited,
+    .ButtonGroup--tertiary>.ButtonGroup>input:visited[type=button],
+    .ButtonGroup--tertiary>.ButtonGroup>input[type=button],
+    .ButtonGroup--tertiary>button,
+    .ButtonGroup--tertiary>button:visited,
+    .ButtonGroup--tertiary>input:visited[type=button],
+    .ButtonGroup--tertiary>input[type=button],
+    button.Button--tertiary,
+    button.Button--tertiary:visited,
+    input.Button--tertiary:visited[type=button],
+    input.Button--tertiary[type=button] {
+      border-color: var(--cv-text-mute);
+      color: var(--cv-text-mute)
+    }
+
+    .prf-meta {
+      background-color: var(--cv-back);
+      border-color: var(--cv-border)
+    }
+
+    .stroke-twitter-light-gray {
+      stroke: var(--cv-text-mute);
+    }
+
+    .gap-chirp:before,
+    .gap-chirp:after {
+      background-image: none !important;
+    }
+
+    .stream-item.gap-chirp {
+      border-top: 1px solid var(--cv-border) !important;
+      border-bottom: 1px solid var(--cv-border) !important;
+    }
+
+    //DM by Midra
+    .md-customDM>article .tweet>.tweet-body>.tweet-text {
+      color: var(--cv-text);
+      background-color: var(--cv-back-mute)
+    }
+
+    //Imageviewer by Midra
+
+    .md-dropdown-menu {
+      background-color: var(--cv-back-mute)
+    }
+
+    .md-dropdown-menu>li {
+      color: var(--cv-text);
+    }
+  }
+}
