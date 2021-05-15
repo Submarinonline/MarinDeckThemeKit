@@ -3131,7 +3131,6 @@ a.caldisabled {
 .Token--blue.is-selected, .Token.is-selected {
   background-color: var(--accent);
   color: var(--text-white);
-  position: relative
 }
 
 .Token--blue.is-selected .Token-adornment, .Token.is-selected .Token-adornment {

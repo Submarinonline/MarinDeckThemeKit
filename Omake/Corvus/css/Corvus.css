@@ -5,7 +5,7 @@
   --cv-text: #d9d9d9;
   --cv-text-mute: #6e767d;
   --cv-primal: #1da1f2;
-  --cv-highlight: #051D2B;
+  --cv-highlight: #051d2b;
   --cv-highlight-a: #1da1f224;
   --prf-c: var(--cv-text);
   --prf-c-mute: var(--cv-text-mute);
@@ -15,389 +15,490 @@
   --prf-dark-c-mute: var(--cv-text-mute);
   --prf-dark-bg: var(--cv-back);
   --prf-dark-c-border: var(--cv-border);
-  --compose-c:  var(--cv-text);
+  --compose-c: var(--cv-text);
   --compose-bg: var(--cv-back);
-  --compose-c-close:  var(--cv-text);
+  --compose-c-close: var(--cv-text);
   --compose-bg-close: var(--cv-back);
-  --compose-dark-c:  var(--cv-text);
+  --compose-dark-c: var(--cv-text);
   --compose-dark-bg: var(--cv-back);
-  --compose-dark-c-close:  var(--cv-text);
+  --compose-dark-c-close: var(--cv-text);
   --compose-dark-bg-close: var(--cv-back);
+  --cdm-containerback-l: var(--cv-back);
+  --cdm-containerback-d: var(--cv-back);
+  --cdm-msgback-l: var(--cv-back-mute);
+  --cdm-msgback-d: var(--cv-back-mute);
+  --cdm-msgtxt-l: var(--cv-text);
+  --cdm-msgtxt-d: var(--cv-text);
+  --cdm-quoted-nametxt-l: var(--cv-text);
+  --cdm-quoted-nametxt-d: var(--cv-text);
+  --cdm-rplborder-d: var(--cv-back);
+  --cdm-textarea-back-l: var(--cv-back-mute);
+  --cdm-textarea-back-d: var(--cv-back-mute);
+  --cdm-msgcontainer-color-l: var(--cv-text-mute);
+  --cdm-msgcontainer-color-d: var(--cv-text-mute);
 }
 
 html {
   color: var(--cv-text);
 }
 
-html .account-link,
-html .other-replies,
-html .compose .other-replies,
-html .inline-reply .other-replies,
-html .accordion-header,
-html .accordion-header:hover,
-html .accordion .is-active .accordion-header,
-html .accordion .is-active .accordion-header:hover,
-html .column-title-container,
-html .column-title-back,
-html .dropdown-menu a:not(:hover):not(:focus),
-html .compose-reply-tweet .fullname,
-html .tweet-stat,
-html .accordion,
-html .accordion-popover,
-html .accordion .is-active,
-html .dropdown-menu .release-notes-item,
-html .dropdown-menu .typeahead-item,
-html .dropdown-menu [data-action],
-html .lst-launcher a span,
-html .list-twitter-list .bytext,
-html .list-twitter-list .txt-ellipsis,
-html .list-twitter-list .inner strong,
-html .lst-group .selected .fullname,
-html .lst-group .selected .inner strong,
-html .lst-group .selected .list-account,
-html .lst-group .selected .list-link,
-html .lst-group .selected .list-listmember,
-html .lst-group .selected .list-subtitle,
-html .lst-group .selected .list-twitter-list,
-html .lst-group .selected .txt-ellipsis,
-html .prf-stats a,
-html .prf-stats a strong,
-html .prf .lst-profile i,
-html .prf .lst-profile span,
-html .lst-profile a,
-html .lst-profile a:active,
-html .lst-profile a:focus,
-html .lst-profile a:hover {
+.account-link,
+.other-replies,
+.compose .other-replies,
+.inline-reply .other-replies,
+.accordion-header,
+.accordion-header:hover,
+.accordion .is-active .accordion-header,
+.accordion .is-active .accordion-header:hover,
+.column-title-container,
+.column-title-back,
+.dropdown-menu a:not(:hover):not(:focus),
+.compose-reply-tweet .fullname,
+.tweet-stat,
+.accordion,
+.accordion-popover,
+.accordion .is-active,
+.dropdown-menu .release-notes-item,
+.dropdown-menu .typeahead-item,
+.dropdown-menu [data-action],
+.lst-launcher a span,
+.list-twitter-list .bytext,
+.list-twitter-list .txt-ellipsis,
+.list-twitter-list .inner strong,
+.lst-group .selected .fullname,
+.lst-group .selected .inner strong,
+.lst-group .selected .list-account,
+.lst-group .selected .list-link,
+.lst-group .selected .list-listmember,
+.lst-group .selected .list-subtitle,
+.lst-group .selected .list-twitter-list,
+.lst-group .selected .txt-ellipsis,
+.prf-stats a,
+.prf-stats a strong,
+.prf .lst-profile i,
+.prf .lst-profile span,
+.lst-profile a,
+.lst-profile a:active,
+.lst-profile a:focus,
+.lst-profile a:hover,
+.typeahead .fullname,
+.color-twitter-deep-black,
+.list-item,
+.cal,
+#caldays span,
+.calweek a {
   color: var(--cv-text);
 }
 
-html button.btn-options-tray,
-html input[type=button].btn-options-tray {
+button.btn-options-tray,
+input[type="button"].btn-options-tray {
   color: var(--cv-text) !important;
 }
 
-html ::-webkit-input-placeholder,
-html ::-webkit-input-placeholder,
-html input::-webkit-input-placeholder,
-html textarea::-webkit-input-placeholder,
-html .txt-mute,
-html .txt-mute a:not(:hover):not(:focus),
-html .column-header .column-type-icon,
-html .search-input-clear-search,
-html .search-input-perform-search,
-html .search-input-spinner,
-html .dm-action,
-html .tweet-action,
-html .tweet-detail-action,
-html .stat-word,
-html .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
-html .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action,
-html .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action,
-html .compose-reply-tweet-remove,
-html .compose-text-title,
-html .compose-reply-tweet .username,
-html .color-twitter-gray,
-html .color-twitter-darker-gray,
-html .list-listmember .username,
-html .list-listmember .bio,
-html .list-twitter-list .subtitle,
-html .padding-axl p {
+::-webkit-input-placeholder,
+::-webkit-input-placeholder,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+.txt-mute,
+.txt-mute a:not(:hover):not(:focus),
+.column-header .column-type-icon,
+.search-input-clear-search,
+.search-input-perform-search,
+.search-input-spinner,
+.dm-action,
+.tweet-action,
+.tweet-detail-action,
+.stat-word,
+.chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-action,
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-detail-action,
+.compose-reply-tweet-remove,
+.compose-text-title,
+.compose-reply-tweet .username,
+.color-twitter-gray,
+.color-twitter-darker-gray,
+.list-listmember .username,
+.list-listmember .bio,
+.list-twitter-list .subtitle,
+.padding-axl p,
+.prf .lst-profile a:hover i,
+.prf .lst-profile a:hover span,
+.prf-stats a:hover,
+.prf-stats a:hover strong,
+.typeahead .username,
+.is-unread .conversation-indicator,
+.is-unread .txt-mute {
   color: var(--cv-text-mute);
 }
 
-html ::-webkit-input-placeholder,
-html ::placeholder,
-html input::placeholder,
-html textarea::placeholder,
-html .txt-mute,
-html .txt-mute a:not(:hover):not(:focus),
-html .column-header .column-type-icon,
-html .search-input-clear-search,
-html .search-input-perform-search,
-html .search-input-spinner,
-html .dm-action,
-html .tweet-action,
-html .tweet-detail-action,
-html .stat-word,
-html .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
-html .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action,
-html .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action,
-html .compose-reply-tweet-remove,
-html .compose-text-title,
-html .compose-reply-tweet .username,
-html .color-twitter-gray,
-html .color-twitter-darker-gray,
-html .list-listmember .username,
-html .list-listmember .bio,
-html .list-twitter-list .subtitle,
-html .padding-axl p {
+::-webkit-input-placeholder,
+::placeholder,
+input::placeholder,
+textarea::placeholder,
+.txt-mute,
+.txt-mute a:not(:hover):not(:focus),
+.column-header .column-type-icon,
+.search-input-clear-search,
+.search-input-perform-search,
+.search-input-spinner,
+.dm-action,
+.tweet-action,
+.tweet-detail-action,
+.stat-word,
+.chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-action,
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-detail-action,
+.compose-reply-tweet-remove,
+.compose-text-title,
+.compose-reply-tweet .username,
+.color-twitter-gray,
+.color-twitter-darker-gray,
+.list-listmember .username,
+.list-listmember .bio,
+.list-twitter-list .subtitle,
+.padding-axl p,
+.prf .lst-profile a:hover i,
+.prf .lst-profile a:hover span,
+.prf-stats a:hover,
+.prf-stats a:hover strong,
+.typeahead .username,
+.is-unread .conversation-indicator,
+.is-unread .txt-mute {
   color: var(--cv-text-mute);
 }
 
-html .lst-launcher .is-disabled a:active > span,
-html .lst-launcher .is-disabled a:focus > span,
-html .lst-launcher .is-disabled a:hover > span,
-html .lst-launcher .is-disabled a > span {
+.lst-launcher .is-disabled a:active > span,
+.lst-launcher .is-disabled a:focus > span,
+.lst-launcher .is-disabled a:hover > span,
+.lst-launcher .is-disabled a > span {
   color: var(--cv-text-mute) !important;
 }
 
-html .app-columns-container,
-html .app-content,
-html .column,
-html .column-panel,
-html .column-message,
-html .column-scroller,
-html .column-options .button-tray,
-html .mdl,
-html .mdl-column-med,
-html .account-settings-row {
+.app-columns-container,
+.app-content,
+.column,
+.column-panel,
+.column-message,
+.column-scroller,
+.column-options .button-tray,
+.mdl,
+.mdl-column-med,
+.account-settings-row,
+.dropdown-menu,
+#calweeks {
   background-color: var(--cv-back);
 }
 
-html .accounts-drawer {
+.accounts-drawer,
+.js-scheduler > .js-schedule-datepicker-holder > .popover {
   background-color: var(--cv-back) !important;
 }
 
-html .facet-type.is-active,
-html .compose-text-container,
-html .thread,
-html .manage-team-summary {
+.facet-type.is-active,
+.compose-text-container,
+.thread,
+.manage-team-summary {
   background-color: var(--cv-back-mute);
 }
 
-html .compose-message-recipient-input-container {
+.compose-message-recipient-input-container {
   background-color: var(--cv-back-mute) !important;
 }
 
-html .with-column-divider-bottom,
-html .facet-type,
-html .mdl-header-divider,
-html .border-divider,
-html .compose-header,
-html .drp-h-divider,
-html .tweet-detail-actions,
-html .tweet-stats,
-html .mdl-content,
-html .drawer-header,
-html .account-settings-bb,
-html .contributor-manager .link-complex,
-html .scroll-styled-h::-webkit-scrollbar-track,
-html .scroll-styled-v::-webkit-scrollbar-track,
-html .s-minimal .mdl-header,
-html .mdl-column-rhs,
-html .prf-stats li + li a,
-html .prf .lst-profile a,
-html .lst li {
+.app-search > .js-search-in-popover > .popover {
+  background-color: var(--cv-back-mute)aa !important;
+}
+
+.with-column-divider-bottom,
+.facet-type,
+.mdl-header-divider,
+.border-divider,
+.compose-header,
+.drp-h-divider,
+.tweet-detail-actions,
+.tweet-stats,
+.mdl-content,
+.drawer-header,
+.account-settings-bb,
+.contributor-manager .link-complex,
+.scroll-styled-h::-webkit-scrollbar-track,
+.scroll-styled-v::-webkit-scrollbar-track,
+.s-minimal .mdl-header,
+.mdl-column-rhs,
+.prf-stats li + li a,
+.prf .lst-profile a,
+.lst li,
+.numbered-badge-onheader,
+.compose-message-recipient,
+input.light-on-dark,
+select.light-on-dark,
+textarea.light-on-dark,
+#caldays {
   border-color: var(--cv-border);
 }
 
-html .btn-on-blue {
+.btn-on-blue {
   background-color: var(--cv-primal);
 }
 
-html button.btn-bg-positive,
-html input[type=button].btn-bg-positive,
-html .compose .antiscroll-scrollbar,
-html .lst-group .selected,
-html .lst-group .selected a:hover {
+button.btn-bg-positive,
+input[type="button"].btn-bg-positive,
+.compose .antiscroll-scrollbar,
+.lst-group .selected,
+.lst-group .selected a:hover,
+button.btn-bg-positive:focus,
+button.btn-bg-positive:hover,
+input[type="button"].btn-bg-positive:focus,
+input[type="button"].btn-bg-positive:hover,
+.dropdown-menu .is-selected {
   background-color: var(--cv-highlight);
 }
 
-html .Button,
-html .Button.is-visited,
-html .Button:visited,
-html button,
-html button.is-visited,
-html button:visited,
-html input.is-visited[type=button],
-html input:visited[type=button],
-html input[type=button],
-html .Button.is-disabled,
-html .Button[disabled],
-html .follow-btn.is-disabled button,
-html button.is-disabled,
-html button.is-disabled:focus,
-html button[disabled],
-html fieldset[disabled] .Button,
-html fieldset[disabled] button,
-html fieldset[disabled] input[type=button],
-html input.is-disabled[type=button],
-html input.is-disabled[type=button]:focus,
-html input[disabled][type=button],
-html button.btn-on-dark.is-selected,
-html button.btn-on-dark:active,
-html button.btn-on-dark:focus,
-html button.btn-on-dark:hover,
-html input[type=button].btn-on-dark.is-selected,
-html input[type=button].btn-on-dark:active,
-html input[type=button].btn-on-dark:focus,
-html input[type=button].btn-on-dark:hover {
+.is-unread {
+  background-color: var(--cv-highlight) !important;
+}
+
+.Button,
+.Button.is-visited,
+.Button:visited,
+button,
+button.is-visited,
+button:visited,
+input.is-visited[type="button"],
+input:visited[type="button"],
+input[type="button"],
+.Button.is-disabled,
+.Button[disabled],
+.follow-btn.is-disabled button,
+button.is-disabled,
+button.is-disabled:focus,
+button[disabled],
+fieldset[disabled] .Button,
+fieldset[disabled] button,
+fieldset[disabled] input[type="button"],
+input.is-disabled[type="button"],
+input.is-disabled[type="button"]:focus,
+input[disabled][type="button"],
+button.btn-on-dark.is-selected,
+button.btn-on-dark:active,
+button.btn-on-dark:focus,
+button.btn-on-dark:hover,
+input[type="button"].btn-on-dark.is-selected,
+input[type="button"].btn-on-dark:active,
+input[type="button"].btn-on-dark:focus,
+input[type="button"].btn-on-dark:hover {
   background-color: transparent;
 }
 
-html .column-header,
-html .column-header-temp {
+.column-header,
+.column-header-temp {
   color: var(--cv-text);
   background-color: var(--cv-back);
 }
 
-html .column-options {
+.column-options {
   color: var(--cv-text);
   background-color: var(--cv-back);
 }
 
-html .search-results-container .stream-item,
-html .stream-item {
+.search-results-container .stream-item,
+.stream-item {
   color: var(--cv-text);
   background-color: var(--cv-back);
   border-color: var(--cv-border);
 }
 
-html .inline-reply,
-html .scroll-styled-h::-webkit-scrollbar-thumb,
-html .scroll-styled-v::-webkit-scrollbar-thumb,
-html .divider-bar,
-html .account-row-separator-b:after {
+.inline-reply,
+.scroll-styled-h::-webkit-scrollbar-thumb,
+.scroll-styled-v::-webkit-scrollbar-thumb,
+.divider-bar,
+.account-row-separator-b:after,
+.in-tweet-divider:before {
   background-color: var(--cv-border);
 }
 
-html .quoted-tweet {
+.quoted-tweet {
   color: var(--cv-text);
   border-color: var(--cv-border);
 }
 
-html .caret-inner,
-html .replyto-caret {
+.caret-inner,
+.replyto-caret,
+.bg-color-twitter-white .caret-inner {
   border-bottom-color: var(--cv-back-mute);
 }
 
-html .reply-triangle {
+.reply-triangle {
   border-bottom-color: var(--cv-border);
 }
 
-html input,
-html select,
-html textarea {
+input,
+select,
+textarea {
   color: var(--cv-text);
   background-color: var(--cv-back);
   border-color: var(--cv-border);
 }
 
-html .detail-view-inline,
-html .detail-view-inline-text {
+.detail-view-inline,
+.detail-view-inline-text {
   color: var(--cv-text-mute);
   background-color: var(--cv-back-mute);
   border-color: var(--cv-border);
 }
 
-html .social-proof-for-tweet-title {
+.social-proof-for-tweet-title {
   color: var(--cv-text-mute);
   background-color: var(--cv-back-mute);
   border-color: var(--cv-border);
 }
 
-html .column-title-edit-box {
+.column-title-edit-box {
   color: var(--cv-text);
   background-color: var(--cv-back-mute);
   border-color: var(--cv-back-mute);
 }
 
-html .scheduled-tweet {
+.scheduled-tweet {
   color: var(--cv-text);
   border-color: var(--cv-back-mute);
 }
 
-html .mdl-accent {
+.mdl-accent {
   background-color: var(--cv-back);
   border-color: var(--cv-border);
 }
 
-html .compose {
+.compose {
   color: var(--cv-text);
   background-color: var(--cv-back);
 }
 
-html .compose-text {
+.compose-text {
   color: var(--cv-text);
   background-color: var(--cv-back-mute) !important;
 }
 
-html .compose-reply-tweet {
+.compose-reply-tweet {
   color: var(--cv-text);
   background-color: var(--cv-highlight);
 }
 
-html input.light-on-dark,
-html select.light-on-dark,
-html textarea.light-on-dark {
+input.light-on-dark,
+select.light-on-dark,
+textarea.light-on-dark {
   color: var(--cv-text);
   background-color: var(--cv-back-mute);
 }
 
-html .dropdown-menu {
-  background-color: var(--cv-back-mute);
-}
-
-html .mdl-dismiss > i {
+.mdl-dismiss > i {
   background-color: var(--cv-border) !important;
 }
 
-html .list-placeholder {
+.list-placeholder {
   color: var(--cv-text);
   text-shadow: none;
 }
 
-html .Button.Button--tertiary,
-html .Button.Button--tertiary:visited,
-html .ButtonGroup--tertiary > .Button,
-html .ButtonGroup--tertiary > .Button:visited,
-html .ButtonGroup--tertiary > .ButtonGroup > .Button,
-html .ButtonGroup--tertiary > .ButtonGroup > .Button:visited,
-html .ButtonGroup--tertiary > .ButtonGroup > button,
-html .ButtonGroup--tertiary > .ButtonGroup > button:visited,
-html .ButtonGroup--tertiary > .ButtonGroup > input:visited[type=button],
-html .ButtonGroup--tertiary > .ButtonGroup > input[type=button],
-html .ButtonGroup--tertiary > button,
-html .ButtonGroup--tertiary > button:visited,
-html .ButtonGroup--tertiary > input:visited[type=button],
-html .ButtonGroup--tertiary > input[type=button],
-html button.Button--tertiary,
-html button.Button--tertiary:visited,
-html input.Button--tertiary:visited[type=button],
-html input.Button--tertiary[type=button] {
+.Button.Button--tertiary,
+.Button.Button--tertiary:visited,
+.ButtonGroup--tertiary > .Button,
+.ButtonGroup--tertiary > .Button:visited,
+.ButtonGroup--tertiary > .ButtonGroup > .Button,
+.ButtonGroup--tertiary > .ButtonGroup > .Button:visited,
+.ButtonGroup--tertiary > .ButtonGroup > button,
+.ButtonGroup--tertiary > .ButtonGroup > button:visited,
+.ButtonGroup--tertiary > .ButtonGroup > input:visited[type="button"],
+.ButtonGroup--tertiary > .ButtonGroup > input[type="button"],
+.ButtonGroup--tertiary > button,
+.ButtonGroup--tertiary > button:visited,
+.ButtonGroup--tertiary > input:visited[type="button"],
+.ButtonGroup--tertiary > input[type="button"],
+button.Button--tertiary,
+button.Button--tertiary:visited,
+input.Button--tertiary:visited[type="button"],
+input.Button--tertiary[type="button"] {
   border-color: var(--cv-text-mute);
   color: var(--cv-text-mute);
 }
 
-html .prf-meta {
+.prf-meta {
   background-color: var(--cv-back);
   border-color: var(--cv-border);
 }
 
-html .stroke-twitter-light-gray {
+.stroke-twitter-light-gray {
   stroke: var(--cv-text-mute);
 }
 
-html .gap-chirp:before,
-html .gap-chirp:after {
+.gap-chirp:before,
+.gap-chirp:after {
   background-image: none !important;
 }
 
-html .stream-item.gap-chirp {
+.stream-item.gap-chirp {
   border-top: 1px solid var(--cv-border) !important;
   border-bottom: 1px solid var(--cv-border) !important;
 }
 
-html .md-customDM > article .tweet > .tweet-body > .tweet-text {
+.add-participant {
+  color: var(--cv-text);
+  background-color: var(--cv-back);
+}
+
+.lst-modal {
+  background-color: var(--cv-back);
+  border-color: var(--cv-border);
+}
+
+.lst .s-selected,
+.is-touch-search .list-item.is-selected,
+.is-touch-search .list-item:active,
+.is-touch-search .list-item:hover {
+  background-color: var(--cv-highlight);
+  color: var(--cv-text);
+}
+
+.edit-conversation-name,
+.edit-conversation-name input {
+  background-color: var(--cv-back);
+  color: var(--cv-text);
+  border-color: var(--cv-border);
+}
+
+#calbody {
+  background-color: var(--cv-back);
+  color: var(--cv-text);
+}
+
+#calcurrent {
+  background-color: var(--cv-highlight);
+  color: var(--cv-text);
+}
+
+.calweek > a.caldisabled {
+  background-color: var(--cv-back) !important;
+  color: var(--cv-back-mute) !important;
+}
+
+.md-customDM > article .tweet > .tweet-body > .tweet-text {
   color: var(--cv-text);
   background-color: var(--cv-back-mute);
 }
 
-html .md-dropdown-menu {
+.md-dropdown-menu {
   background-color: var(--cv-back-mute);
 }
 
-html .md-dropdown-menu > li {
+.md-dropdown-menu > li {
   color: var(--cv-text);
 }
 
@@ -406,138 +507,296 @@ html.dark {
 }
 
 html.dark .account-link,
-html.dark .other-replies,
-html.dark .compose .other-replies,
-html.dark .inline-reply .other-replies,
-html.dark .accordion-header,
-html.dark .accordion-header:hover,
-html.dark .accordion .is-active .accordion-header,
-html.dark .accordion .is-active .accordion-header:hover,
-html.dark .column-title-container,
-html.dark .column-title-back,
-html.dark .dropdown-menu a:not(:hover):not(:focus),
-html.dark .compose-reply-tweet .fullname,
-html.dark .tweet-stat,
-html.dark .accordion,
-html.dark .accordion-popover,
-html.dark .accordion .is-active,
-html.dark .dropdown-menu .release-notes-item,
-html.dark .dropdown-menu .typeahead-item,
-html.dark .dropdown-menu [data-action],
-html.dark .lst-launcher a span,
-html.dark .list-twitter-list .bytext,
-html.dark .list-twitter-list .txt-ellipsis,
-html.dark .list-twitter-list .inner strong,
-html.dark .lst-group .selected .fullname,
-html.dark .lst-group .selected .inner strong,
-html.dark .lst-group .selected .list-account,
-html.dark .lst-group .selected .list-link,
-html.dark .lst-group .selected .list-listmember,
-html.dark .lst-group .selected .list-subtitle,
-html.dark .lst-group .selected .list-twitter-list,
-html.dark .lst-group .selected .txt-ellipsis,
-html.dark .prf-stats a,
-html.dark .prf-stats a strong,
-html.dark .prf .lst-profile i,
-html.dark .prf .lst-profile span,
-html.dark .lst-profile a,
-html.dark .lst-profile a:active,
-html.dark .lst-profile a:focus,
-html.dark .lst-profile a:hover {
+html.dark
+.other-replies,
+html.dark
+.compose .other-replies,
+html.dark
+.inline-reply .other-replies,
+html.dark
+.accordion-header,
+html.dark
+.accordion-header:hover,
+html.dark
+.accordion .is-active .accordion-header,
+html.dark
+.accordion .is-active .accordion-header:hover,
+html.dark
+.column-title-container,
+html.dark
+.column-title-back,
+html.dark
+.dropdown-menu a:not(:hover):not(:focus),
+html.dark
+.compose-reply-tweet .fullname,
+html.dark
+.tweet-stat,
+html.dark
+.accordion,
+html.dark
+.accordion-popover,
+html.dark
+.accordion .is-active,
+html.dark
+.dropdown-menu .release-notes-item,
+html.dark
+.dropdown-menu .typeahead-item,
+html.dark
+.dropdown-menu [data-action],
+html.dark
+.lst-launcher a span,
+html.dark
+.list-twitter-list .bytext,
+html.dark
+.list-twitter-list .txt-ellipsis,
+html.dark
+.list-twitter-list .inner strong,
+html.dark
+.lst-group .selected .fullname,
+html.dark
+.lst-group .selected .inner strong,
+html.dark
+.lst-group .selected .list-account,
+html.dark
+.lst-group .selected .list-link,
+html.dark
+.lst-group .selected .list-listmember,
+html.dark
+.lst-group .selected .list-subtitle,
+html.dark
+.lst-group .selected .list-twitter-list,
+html.dark
+.lst-group .selected .txt-ellipsis,
+html.dark
+.prf-stats a,
+html.dark
+.prf-stats a strong,
+html.dark
+.prf .lst-profile i,
+html.dark
+.prf .lst-profile span,
+html.dark
+.lst-profile a,
+html.dark
+.lst-profile a:active,
+html.dark
+.lst-profile a:focus,
+html.dark
+.lst-profile a:hover,
+html.dark
+.typeahead .fullname,
+html.dark
+.color-twitter-deep-black,
+html.dark
+.list-item,
+html.dark
+.cal,
+html.dark
+#caldays span,
+html.dark
+.calweek a {
   color: var(--cv-text);
 }
 
 html.dark button.btn-options-tray,
-html.dark input[type=button].btn-options-tray {
+html.dark
+input[type="button"].btn-options-tray {
   color: var(--cv-text) !important;
 }
 
 html.dark ::-webkit-input-placeholder,
-html.dark ::-webkit-input-placeholder,
-html.dark input::-webkit-input-placeholder,
-html.dark textarea::-webkit-input-placeholder,
-html.dark .txt-mute,
-html.dark .txt-mute a:not(:hover):not(:focus),
-html.dark .column-header .column-type-icon,
-html.dark .search-input-clear-search,
-html.dark .search-input-perform-search,
-html.dark .search-input-spinner,
-html.dark .dm-action,
-html.dark .tweet-action,
-html.dark .tweet-detail-action,
-html.dark .stat-word,
-html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
-html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action,
-html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action,
-html.dark .compose-reply-tweet-remove,
-html.dark .compose-text-title,
-html.dark .compose-reply-tweet .username,
-html.dark .color-twitter-gray,
-html.dark .color-twitter-darker-gray,
-html.dark .list-listmember .username,
-html.dark .list-listmember .bio,
-html.dark .list-twitter-list .subtitle,
-html.dark .padding-axl p {
+html.dark
+::-webkit-input-placeholder,
+html.dark
+input::-webkit-input-placeholder,
+html.dark
+textarea::-webkit-input-placeholder,
+html.dark
+.txt-mute,
+html.dark
+.txt-mute a:not(:hover):not(:focus),
+html.dark
+.column-header .column-type-icon,
+html.dark
+.search-input-clear-search,
+html.dark
+.search-input-perform-search,
+html.dark
+.search-input-spinner,
+html.dark
+.dm-action,
+html.dark
+.tweet-action,
+html.dark
+.tweet-detail-action,
+html.dark
+.stat-word,
+html.dark
+.chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
+html.dark
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-action,
+html.dark
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-detail-action,
+html.dark
+.compose-reply-tweet-remove,
+html.dark
+.compose-text-title,
+html.dark
+.compose-reply-tweet .username,
+html.dark
+.color-twitter-gray,
+html.dark
+.color-twitter-darker-gray,
+html.dark
+.list-listmember .username,
+html.dark
+.list-listmember .bio,
+html.dark
+.list-twitter-list .subtitle,
+html.dark
+.padding-axl p,
+html.dark
+.prf .lst-profile a:hover i,
+html.dark
+.prf .lst-profile a:hover span,
+html.dark
+.prf-stats a:hover,
+html.dark
+.prf-stats a:hover strong,
+html.dark
+.typeahead .username,
+html.dark
+.is-unread .conversation-indicator,
+html.dark
+.is-unread .txt-mute {
   color: var(--cv-text-mute);
 }
 
 html.dark ::-webkit-input-placeholder,
-html.dark ::placeholder,
-html.dark input::placeholder,
-html.dark textarea::placeholder,
-html.dark .txt-mute,
-html.dark .txt-mute a:not(:hover):not(:focus),
-html.dark .column-header .column-type-icon,
-html.dark .search-input-clear-search,
-html.dark .search-input-perform-search,
-html.dark .search-input-spinner,
-html.dark .dm-action,
-html.dark .tweet-action,
-html.dark .tweet-detail-action,
-html.dark .stat-word,
-html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
-html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-action,
-html.dark .chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .tweet-detail-action,
-html.dark .compose-reply-tweet-remove,
-html.dark .compose-text-title,
-html.dark .compose-reply-tweet .username,
-html.dark .color-twitter-gray,
-html.dark .color-twitter-darker-gray,
-html.dark .list-listmember .username,
-html.dark .list-listmember .bio,
-html.dark .list-twitter-list .subtitle,
-html.dark .padding-axl p {
+html.dark
+::placeholder,
+html.dark
+input::placeholder,
+html.dark
+textarea::placeholder,
+html.dark
+.txt-mute,
+html.dark
+.txt-mute a:not(:hover):not(:focus),
+html.dark
+.column-header .column-type-icon,
+html.dark
+.search-input-clear-search,
+html.dark
+.search-input-perform-search,
+html.dark
+.search-input-spinner,
+html.dark
+.dm-action,
+html.dark
+.tweet-action,
+html.dark
+.tweet-detail-action,
+html.dark
+.stat-word,
+html.dark
+.chirp-container .stream-item:not(:hover):not(.is-selected-tweet) .dm-action,
+html.dark
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-action,
+html.dark
+.chirp-container
+.stream-item:not(:hover):not(.is-selected-tweet)
+.tweet-detail-action,
+html.dark
+.compose-reply-tweet-remove,
+html.dark
+.compose-text-title,
+html.dark
+.compose-reply-tweet .username,
+html.dark
+.color-twitter-gray,
+html.dark
+.color-twitter-darker-gray,
+html.dark
+.list-listmember .username,
+html.dark
+.list-listmember .bio,
+html.dark
+.list-twitter-list .subtitle,
+html.dark
+.padding-axl p,
+html.dark
+.prf .lst-profile a:hover i,
+html.dark
+.prf .lst-profile a:hover span,
+html.dark
+.prf-stats a:hover,
+html.dark
+.prf-stats a:hover strong,
+html.dark
+.typeahead .username,
+html.dark
+.is-unread .conversation-indicator,
+html.dark
+.is-unread .txt-mute {
   color: var(--cv-text-mute);
 }
 
 html.dark .lst-launcher .is-disabled a:active > span,
-html.dark .lst-launcher .is-disabled a:focus > span,
-html.dark .lst-launcher .is-disabled a:hover > span,
-html.dark .lst-launcher .is-disabled a > span {
+html.dark
+.lst-launcher .is-disabled a:focus > span,
+html.dark
+.lst-launcher .is-disabled a:hover > span,
+html.dark
+.lst-launcher .is-disabled a > span {
   color: var(--cv-text-mute) !important;
 }
 
 html.dark .app-columns-container,
-html.dark .app-content,
-html.dark .column,
-html.dark .column-panel,
-html.dark .column-message,
-html.dark .column-scroller,
-html.dark .column-options .button-tray,
-html.dark .mdl,
-html.dark .mdl-column-med,
-html.dark .account-settings-row {
+html.dark
+.app-content,
+html.dark
+.column,
+html.dark
+.column-panel,
+html.dark
+.column-message,
+html.dark
+.column-scroller,
+html.dark
+.column-options .button-tray,
+html.dark
+.mdl,
+html.dark
+.mdl-column-med,
+html.dark
+.account-settings-row,
+html.dark
+.dropdown-menu,
+html.dark
+#calweeks {
   background-color: var(--cv-back);
 }
 
-html.dark .accounts-drawer {
+html.dark .accounts-drawer,
+html.dark
+.js-scheduler > .js-schedule-datepicker-holder > .popover {
   background-color: var(--cv-back) !important;
 }
 
 html.dark .facet-type.is-active,
-html.dark .compose-text-container,
-html.dark .thread,
-html.dark .manage-team-summary {
+html.dark
+.compose-text-container,
+html.dark
+.thread,
+html.dark
+.manage-team-summary {
   background-color: var(--cv-back-mute);
 }
 
@@ -545,25 +804,59 @@ html.dark .compose-message-recipient-input-container {
   background-color: var(--cv-back-mute) !important;
 }
 
+html.dark .app-search > .js-search-in-popover > .popover {
+  background-color: var(--cv-back-mute)aa !important;
+}
+
 html.dark .with-column-divider-bottom,
-html.dark .facet-type,
-html.dark .mdl-header-divider,
-html.dark .border-divider,
-html.dark .compose-header,
-html.dark .drp-h-divider,
-html.dark .tweet-detail-actions,
-html.dark .tweet-stats,
-html.dark .mdl-content,
-html.dark .drawer-header,
-html.dark .account-settings-bb,
-html.dark .contributor-manager .link-complex,
-html.dark .scroll-styled-h::-webkit-scrollbar-track,
-html.dark .scroll-styled-v::-webkit-scrollbar-track,
-html.dark .s-minimal .mdl-header,
-html.dark .mdl-column-rhs,
-html.dark .prf-stats li + li a,
-html.dark .prf .lst-profile a,
-html.dark .lst li {
+html.dark
+.facet-type,
+html.dark
+.mdl-header-divider,
+html.dark
+.border-divider,
+html.dark
+.compose-header,
+html.dark
+.drp-h-divider,
+html.dark
+.tweet-detail-actions,
+html.dark
+.tweet-stats,
+html.dark
+.mdl-content,
+html.dark
+.drawer-header,
+html.dark
+.account-settings-bb,
+html.dark
+.contributor-manager .link-complex,
+html.dark
+.scroll-styled-h::-webkit-scrollbar-track,
+html.dark
+.scroll-styled-v::-webkit-scrollbar-track,
+html.dark
+.s-minimal .mdl-header,
+html.dark
+.mdl-column-rhs,
+html.dark
+.prf-stats li + li a,
+html.dark
+.prf .lst-profile a,
+html.dark
+.lst li,
+html.dark
+.numbered-badge-onheader,
+html.dark
+.compose-message-recipient,
+html.dark
+input.light-on-dark,
+html.dark
+select.light-on-dark,
+html.dark
+textarea.light-on-dark,
+html.dark
+#caldays {
   border-color: var(--cv-border);
 }
 
@@ -572,47 +865,94 @@ html.dark .btn-on-blue {
 }
 
 html.dark button.btn-bg-positive,
-html.dark input[type=button].btn-bg-positive,
-html.dark .compose .antiscroll-scrollbar,
-html.dark .lst-group .selected,
-html.dark .lst-group .selected a:hover {
+html.dark
+input[type="button"].btn-bg-positive,
+html.dark
+.compose .antiscroll-scrollbar,
+html.dark
+.lst-group .selected,
+html.dark
+.lst-group .selected a:hover,
+html.dark
+button.btn-bg-positive:focus,
+html.dark
+button.btn-bg-positive:hover,
+html.dark
+input[type="button"].btn-bg-positive:focus,
+html.dark
+input[type="button"].btn-bg-positive:hover,
+html.dark
+.dropdown-menu .is-selected {
   background-color: var(--cv-highlight);
 }
 
+html.dark .is-unread {
+  background-color: var(--cv-highlight) !important;
+}
+
 html.dark .Button,
-html.dark .Button.is-visited,
-html.dark .Button:visited,
-html.dark button,
-html.dark button.is-visited,
-html.dark button:visited,
-html.dark input.is-visited[type=button],
-html.dark input:visited[type=button],
-html.dark input[type=button],
-html.dark .Button.is-disabled,
-html.dark .Button[disabled],
-html.dark .follow-btn.is-disabled button,
-html.dark button.is-disabled,
-html.dark button.is-disabled:focus,
-html.dark button[disabled],
-html.dark fieldset[disabled] .Button,
-html.dark fieldset[disabled] button,
-html.dark fieldset[disabled] input[type=button],
-html.dark input.is-disabled[type=button],
-html.dark input.is-disabled[type=button]:focus,
-html.dark input[disabled][type=button],
-html.dark button.btn-on-dark.is-selected,
-html.dark button.btn-on-dark:active,
-html.dark button.btn-on-dark:focus,
-html.dark button.btn-on-dark:hover,
-html.dark input[type=button].btn-on-dark.is-selected,
-html.dark input[type=button].btn-on-dark:active,
-html.dark input[type=button].btn-on-dark:focus,
-html.dark input[type=button].btn-on-dark:hover {
+html.dark
+.Button.is-visited,
+html.dark
+.Button:visited,
+html.dark
+button,
+html.dark
+button.is-visited,
+html.dark
+button:visited,
+html.dark
+input.is-visited[type="button"],
+html.dark
+input:visited[type="button"],
+html.dark
+input[type="button"],
+html.dark
+.Button.is-disabled,
+html.dark
+.Button[disabled],
+html.dark
+.follow-btn.is-disabled button,
+html.dark
+button.is-disabled,
+html.dark
+button.is-disabled:focus,
+html.dark
+button[disabled],
+html.dark
+fieldset[disabled] .Button,
+html.dark
+fieldset[disabled] button,
+html.dark
+fieldset[disabled] input[type="button"],
+html.dark
+input.is-disabled[type="button"],
+html.dark
+input.is-disabled[type="button"]:focus,
+html.dark
+input[disabled][type="button"],
+html.dark
+button.btn-on-dark.is-selected,
+html.dark
+button.btn-on-dark:active,
+html.dark
+button.btn-on-dark:focus,
+html.dark
+button.btn-on-dark:hover,
+html.dark
+input[type="button"].btn-on-dark.is-selected,
+html.dark
+input[type="button"].btn-on-dark:active,
+html.dark
+input[type="button"].btn-on-dark:focus,
+html.dark
+input[type="button"].btn-on-dark:hover {
   background-color: transparent;
 }
 
 html.dark .column-header,
-html.dark .column-header-temp {
+html.dark
+.column-header-temp {
   color: var(--cv-text);
   background-color: var(--cv-back);
 }
@@ -623,17 +963,24 @@ html.dark .column-options {
 }
 
 html.dark .search-results-container .stream-item,
-html.dark .stream-item {
+html.dark
+.stream-item {
   color: var(--cv-text);
   background-color: var(--cv-back);
   border-color: var(--cv-border);
 }
 
 html.dark .inline-reply,
-html.dark .scroll-styled-h::-webkit-scrollbar-thumb,
-html.dark .scroll-styled-v::-webkit-scrollbar-thumb,
-html.dark .divider-bar,
-html.dark .account-row-separator-b:after {
+html.dark
+.scroll-styled-h::-webkit-scrollbar-thumb,
+html.dark
+.scroll-styled-v::-webkit-scrollbar-thumb,
+html.dark
+.divider-bar,
+html.dark
+.account-row-separator-b:after,
+html.dark
+.in-tweet-divider:before {
   background-color: var(--cv-border);
 }
 
@@ -643,7 +990,10 @@ html.dark .quoted-tweet {
 }
 
 html.dark .caret-inner,
-html.dark .replyto-caret {
+html.dark
+.replyto-caret,
+html.dark
+.bg-color-twitter-white .caret-inner {
   border-bottom-color: var(--cv-back-mute);
 }
 
@@ -652,15 +1002,18 @@ html.dark .reply-triangle {
 }
 
 html.dark input,
-html.dark select,
-html.dark textarea {
+html.dark
+select,
+html.dark
+textarea {
   color: var(--cv-text);
   background-color: var(--cv-back);
   border-color: var(--cv-border);
 }
 
 html.dark .detail-view-inline,
-html.dark .detail-view-inline-text {
+html.dark
+.detail-view-inline-text {
   color: var(--cv-text-mute);
   background-color: var(--cv-back-mute);
   border-color: var(--cv-border);
@@ -704,13 +1057,11 @@ html.dark .compose-reply-tweet {
 }
 
 html.dark input.light-on-dark,
-html.dark select.light-on-dark,
-html.dark textarea.light-on-dark {
+html.dark
+select.light-on-dark,
+html.dark
+textarea.light-on-dark {
   color: var(--cv-text);
-  background-color: var(--cv-back-mute);
-}
-
-html.dark .dropdown-menu {
   background-color: var(--cv-back-mute);
 }
 
@@ -724,23 +1075,40 @@ html.dark .list-placeholder {
 }
 
 html.dark .Button.Button--tertiary,
-html.dark .Button.Button--tertiary:visited,
-html.dark .ButtonGroup--tertiary > .Button,
-html.dark .ButtonGroup--tertiary > .Button:visited,
-html.dark .ButtonGroup--tertiary > .ButtonGroup > .Button,
-html.dark .ButtonGroup--tertiary > .ButtonGroup > .Button:visited,
-html.dark .ButtonGroup--tertiary > .ButtonGroup > button,
-html.dark .ButtonGroup--tertiary > .ButtonGroup > button:visited,
-html.dark .ButtonGroup--tertiary > .ButtonGroup > input:visited[type=button],
-html.dark .ButtonGroup--tertiary > .ButtonGroup > input[type=button],
-html.dark .ButtonGroup--tertiary > button,
-html.dark .ButtonGroup--tertiary > button:visited,
-html.dark .ButtonGroup--tertiary > input:visited[type=button],
-html.dark .ButtonGroup--tertiary > input[type=button],
-html.dark button.Button--tertiary,
-html.dark button.Button--tertiary:visited,
-html.dark input.Button--tertiary:visited[type=button],
-html.dark input.Button--tertiary[type=button] {
+html.dark
+.Button.Button--tertiary:visited,
+html.dark
+.ButtonGroup--tertiary > .Button,
+html.dark
+.ButtonGroup--tertiary > .Button:visited,
+html.dark
+.ButtonGroup--tertiary > .ButtonGroup > .Button,
+html.dark
+.ButtonGroup--tertiary > .ButtonGroup > .Button:visited,
+html.dark
+.ButtonGroup--tertiary > .ButtonGroup > button,
+html.dark
+.ButtonGroup--tertiary > .ButtonGroup > button:visited,
+html.dark
+.ButtonGroup--tertiary > .ButtonGroup > input:visited[type="button"],
+html.dark
+.ButtonGroup--tertiary > .ButtonGroup > input[type="button"],
+html.dark
+.ButtonGroup--tertiary > button,
+html.dark
+.ButtonGroup--tertiary > button:visited,
+html.dark
+.ButtonGroup--tertiary > input:visited[type="button"],
+html.dark
+.ButtonGroup--tertiary > input[type="button"],
+html.dark
+button.Button--tertiary,
+html.dark
+button.Button--tertiary:visited,
+html.dark
+input.Button--tertiary:visited[type="button"],
+html.dark
+input.Button--tertiary[type="button"] {
   border-color: var(--cv-text-mute);
   color: var(--cv-text-mute);
 }
@@ -755,13 +1123,58 @@ html.dark .stroke-twitter-light-gray {
 }
 
 html.dark .gap-chirp:before,
-html.dark .gap-chirp:after {
+html.dark
+.gap-chirp:after {
   background-image: none !important;
 }
 
 html.dark .stream-item.gap-chirp {
   border-top: 1px solid var(--cv-border) !important;
   border-bottom: 1px solid var(--cv-border) !important;
+}
+
+html.dark .add-participant {
+  color: var(--cv-text);
+  background-color: var(--cv-back);
+}
+
+html.dark .lst-modal {
+  background-color: var(--cv-back);
+  border-color: var(--cv-border);
+}
+
+html.dark .lst .s-selected,
+html.dark
+.is-touch-search .list-item.is-selected,
+html.dark
+.is-touch-search .list-item:active,
+html.dark
+.is-touch-search .list-item:hover {
+  background-color: var(--cv-highlight);
+  color: var(--cv-text);
+}
+
+html.dark .edit-conversation-name,
+html.dark
+.edit-conversation-name input {
+  background-color: var(--cv-back);
+  color: var(--cv-text);
+  border-color: var(--cv-border);
+}
+
+html.dark #calbody {
+  background-color: var(--cv-back);
+  color: var(--cv-text);
+}
+
+html.dark #calcurrent {
+  background-color: var(--cv-highlight);
+  color: var(--cv-text);
+}
+
+html.dark .calweek > a.caldisabled {
+  background-color: var(--cv-back) !important;
+  color: var(--cv-back-mute) !important;
 }
 
 html.dark .md-customDM > article .tweet > .tweet-body > .tweet-text {
